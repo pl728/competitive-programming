@@ -2,19 +2,6 @@
 #define lli long long int
 using namespace std;
 
-// 3 5 5 7 8
-// 4 8 3
-
-void print_vec(vector<lli> v, int n)
-{
-    cout << "\n=============\n";
-    for (int i = 0; i < n; i++)
-    {
-        cout << v.at(i) << " ";
-    }
-    cout << "\n=============\n";
-}
-
 int main()
 {
     int n, m;
