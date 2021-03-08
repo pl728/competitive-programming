@@ -2,6 +2,8 @@
 #define lli long long int
 using namespace std;
 
+// rating: 800
+
 int main()
 {
     int w;

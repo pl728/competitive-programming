@@ -2,6 +2,7 @@
 #define lli long long int
 using namespace std;
 
+// rating: 800
 // to compile:
 // g++ -std=c++11 -O2 -Wall _.cpp -o _
 

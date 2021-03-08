@@ -20,14 +20,7 @@ int main()
         total_sum += a[i];
         if (i > 0 && i < n - 1)
         {
-            if (m[total_sum])
-            {
-                m[total_sum]++;
-            }
-            else
-            {
-                m[total_sum] = 1;
-            }
+            m[total_sum]++;
         }
     }
     lli num_ways = 0;
@@ -41,27 +34,18 @@ int main()
             lli one_third = total_sum / 3;
             if (s1 == one_third && s1 != 2 * one_third)
             {
-                if (m[2 * one_third])
-                {
-                    num_ways += m[2 * one_third];
-                }
+                num_ways += m[2 * one_third];
             }
             else if (s1 != one_third && s1 == 2 * one_third)
             {
-                if (i > 0 && m[2 * one_third])
+                if (i > 0)
                     m[2 * one_third]--;
             }
             else if (s1 == one_third && s1 == 2 * one_third)
             {
-                if (i > 0 && m[2 * one_third])
+                if (i > 0)
                     m[2 * one_third]--;
-                if (m[2 * one_third])
-                {
-                    num_ways += m[2 * one_third];
-                }
-            }
-            else
-            {
+                num_ways += m[2 * one_third];
             }
         }
     }
