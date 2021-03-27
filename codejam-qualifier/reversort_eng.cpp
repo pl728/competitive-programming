@@ -46,8 +46,6 @@ int main()
             cout << A[i] << " ";
         }
         cout << "\n";
-
-        // cout << "Actual Cost: " << test_answer(A, n) << "\n";
     }
 
     return 0;
