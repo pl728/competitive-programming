@@ -11,8 +11,9 @@ int main()
     cin >> best;
     sum = best;
 
-    // when next element is negative, add it to sum
-    // if next element is larger than current sum, start over
+    // when next element is not negative, add it to our subarray
+    // if the next element is negative, need to add it to our subarray
+    // if next element by itself is larger than current sum + next element, start over
     for (lli i = 1; i < n; i++)
     {
         cin >> x[i];
