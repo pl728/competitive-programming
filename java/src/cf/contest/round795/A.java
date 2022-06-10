@@ -2,7 +2,7 @@ package cf.contest.round795;
 
 import java.util.*;
 
-public class BeatTheOdds {
+public class A {
     public static void main(String[] args) {
         // [2, 2, 2, 3, 3]
         Scanner sc = new Scanner(System.in);

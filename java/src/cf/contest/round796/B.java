@@ -2,7 +2,7 @@ package cf.contest.round796;
 
 import java.util.Scanner;
 
-public class Patchouli {
+public class B {
     public static void main(String[] args) {
         // [2, 2, 2, 3, 3]
         Scanner sc = new Scanner(System.in);

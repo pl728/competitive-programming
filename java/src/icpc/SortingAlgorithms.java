@@ -48,7 +48,7 @@ public class SortingAlgorithms {
                 j++;
             }
         } else {
-            // j = B.length
+            // j = cf.contest.round798.B.length
             for(int k = i + j; k < A.length + B.length; k++) {
                 C[k] = A[i];
                 i++;
