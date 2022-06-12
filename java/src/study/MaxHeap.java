@@ -1,4 +1,4 @@
-package icpc;
+package study;
 
 public class MaxHeap {
 

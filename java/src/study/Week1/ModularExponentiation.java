@@ -1,4 +1,4 @@
-package icpc.Week1;
+package study.Week1;
 
 public class ModularExponentiation {
 

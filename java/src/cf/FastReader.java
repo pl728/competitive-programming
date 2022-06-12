@@ -1,4 +1,4 @@
-package cf.contest;
+package cf;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -28,7 +28,9 @@ public class FastReader {
         return st.nextToken();
     }
 
-    public int nextInt() throws IOException {
+    // int, long, double, String
+
+    public int nextInt() {
         return Integer.parseInt(next());
     }
 
@@ -40,22 +42,6 @@ public class FastReader {
         return Double.parseDouble(next());
     }
 
-    public int[] nextIntArray(int n) throws IOException {
-        int[] result = new int[n];
-        for(int i = 0; i < n; i++) {
-            result[i] = this.nextInt();
-        }
-        return result;
-    }
-
-    public Integer[] nextIntegerArray(int n) throws IOException {
-        Integer[] result = new Integer[n];
-        for(int i = 0; i < n; i++) {
-            result[i] = this.nextInt();
-        }
-        return result;
-    }
-
     String nextLine() {
         String str = "";
         try {
@@ -64,6 +50,56 @@ public class FastReader {
             e.printStackTrace();
         }
         return str;
+    }
+
+    // int array, long array, double array, string array (primitive and object)
+
+    public int[] nextIntArray(int n) {
+        int[] result = new int[n];
+        for (int i = 0; i < n; i++) {
+            result[i] = this.nextInt();
+        }
+        return result;
+    }
+
+    public Integer[] nextIntArrayObject(int n) {
+        Integer[] result = new Integer[n];
+        for (int i = 0; i < n; i++) {
+            result[i] = this.nextInt();
+        }
+        return result;
+    }
+
+    public long[] nextLongArray(int n) {
+        long[] result = new long[n];
+        for (int i = 0; i < n; i++) {
+            result[i] = this.nextLong();
+        }
+        return result;
+    }
+
+    public Long[] nextLongArrayObject(int n) {
+        Long[] result = new Long[n];
+        for (int i = 0; i < n; i++) {
+            result[i] = this.nextLong();
+        }
+        return result;
+    }
+
+    public double[] nextDoubleArray(int n) {
+        double[] result = new double[n];
+        for (int i = 0; i < n; i++) {
+            result[i] = this.nextDouble();
+        }
+        return result;
+    }
+
+    public Double[] nextDoubleArrayObject(int n) {
+        Double[] result = new Double[n];
+        for (int i = 0; i < n; i++) {
+            result[i] = this.nextDouble();
+        }
+        return result;
     }
 
     String[] nextLineArray(int n) {
