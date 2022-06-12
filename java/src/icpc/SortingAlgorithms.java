@@ -60,7 +60,7 @@ public class SortingAlgorithms {
 
     public static int[] quicksort(int[] A, int lower, int higher) {
         // find pivot, then put all numbers lower than the pivot before and all nums greater after.
-        // call quicksort on each half (quicksort(A[:x]) + pivot + quicksort(A[x:])
+        // call quicksort on each half (quicksort(cf.contest.edu130.A[:x]) + pivot + quicksort(cf.contest.edu130.A[x:])
         // [4, 1, 2, 5, 3]
 
         if(lower < higher) {
