@@ -1,6 +1,6 @@
-package cf.contest;
+package study;
 
-public class sandbox {
+public class LongFloatDouble {
     public static void main(String[] args) {
         System.out.println("Float: " + Float.MAX_VALUE);
         System.out.println("Double: " + Double.MAX_VALUE);
