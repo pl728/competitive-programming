@@ -1,14 +1,31 @@
-package cf;
+package cf.pset1200;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Template {
+public class CheapTravel {
     public static void main(String[] args) {
         FastReader fastReader = new FastReader();
+        int n = fastReader.nextInt();
+        int m = fastReader.nextInt();
+        int a = fastReader.nextInt();
+        int b = fastReader.nextInt();
+        if((double) b / m < a) {
+            // special ride is cheaper per ride, buy as many times as possible
+            int numSpecial = (int) Math.floor((double) n / m);
+            // for the last n - numSpecial * m, need to decide what is cheaper - single or multi ticket
+            int numNormal = n - numSpecial * m;
+            if(numNormal * a < b) {
+                System.out.println(numSpecial * b + numNormal * a);
+            } else {
+                System.out.println((numSpecial + 1) * b);
+            }
+
+        } else {
+            System.out.println(n * a);
+        }
     }
 
     static class FastReader {

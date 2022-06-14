@@ -1,4 +1,4 @@
-package study;
+package study.random;
 
 public class MaxHeap {
 

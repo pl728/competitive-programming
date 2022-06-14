@@ -1,4 +1,4 @@
-package study;
+package study.random;
 
 public class LongFloatDouble {
     public static void main(String[] args) {

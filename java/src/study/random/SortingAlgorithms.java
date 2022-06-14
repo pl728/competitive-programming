@@ -1,4 +1,4 @@
-package study;
+package study.random;
 
 import java.util.Arrays;
 
