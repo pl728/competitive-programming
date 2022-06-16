@@ -1,38 +1,48 @@
-package cf.contest.round799;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.Arrays;
+import java.util.StringTokenizer;
 
-public class E {
+public class B {
     public static void main(String[] args) {
         FastReader sc = new FastReader();
         int t = sc.nextInt();
         for (int _i = 0; _i < t; _i++) {
+            int ans = 0;
             int n = sc.nextInt();
-            int s = sc.nextInt();
-            int[] a = sc.readIntArray(n);
-            int[] cumulative = new int[n];
-            cumulative[0] = a[0];
-            for (int i = 1; i < a.length; i++) {
-                cumulative[i] = cumulative[i-1] + a[i];
+//            int[] numZero = new int[n + 1];
+//            int[] numOne = new int[n + 1];
+            String s = sc.nextLine();
+//            if (s.charAt(0) == '0') {
+//                numZero[1] = 1;
+//                numOne[1] = 0;
+//            } else {
+//                numZero[1] = 0;
+//                numOne[1] = 1;
+//            }
+//            for (int i = 1; i < n; i++) {
+//                if (s.charAt(i) == '0') {
+//                    numZero[i + 1] = numZero[i] + 1;
+//                    numOne[i + 1] = numOne[i];
+//                } else {
+//                    numOne[i + 1] = numOne[i] + 1;
+//                    numZero[i + 1] = numZero[i];
+//                }
+//            }
+            ans += n;
+//            System.out.println(Arrays.toString(numOne));
+//            System.out.println(Arrays.toString(numZero));
+
+            for (int i = 0; i < n - 1; i++) {
+                for (int j = i + 1; j < n; j++) {
+                    if(s.substring(i, j).contains("0") && s.substring(i, j).contains("1")) {
+                        ans++;
+                    }
+                }
             }
 
-            if(cumulative[n-1] < s) {
-                System.out.println("NO");
-                continue;
-            }
-
-            if(cumulative[n-1] == s) {
-                System.out.println("YES");
-                continue;
-            }
-
-            System.out.println(Arrays.toString(cumulative));
-            for(int i = 0; i < n; i++) {
-                int start = i; int end = 1;
-            }
+            System.out.println(ans);
         }
     }
 

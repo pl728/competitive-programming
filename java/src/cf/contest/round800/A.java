@@ -1,38 +1,33 @@
-package cf.contest.round799;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.StringTokenizer;
 
-public class E {
+public class A {
     public static void main(String[] args) {
         FastReader sc = new FastReader();
         int t = sc.nextInt();
-        for (int _i = 0; _i < t; _i++) {
-            int n = sc.nextInt();
-            int s = sc.nextInt();
-            int[] a = sc.readIntArray(n);
-            int[] cumulative = new int[n];
-            cumulative[0] = a[0];
-            for (int i = 1; i < a.length; i++) {
-                cumulative[i] = cumulative[i-1] + a[i];
+        for(int _i = 0; _i < t; _i++) {
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+
+            // min creepiness is |a - b|
+            StringBuilder sb = new StringBuilder();
+            int smaller = Math.min(a, b);
+            for(int i = 0; i < Math.min(a, b); i++) {
+                sb.append("01");
+            }
+            if(smaller == a) {
+                for(int i = 0; i < b - a; i++) {
+                    sb.append("1");
+                }
+            } else {
+                for(int i = 0; i < a - b; i++) {
+                    sb.append("0");
+                }
             }
 
-            if(cumulative[n-1] < s) {
-                System.out.println("NO");
-                continue;
-            }
-
-            if(cumulative[n-1] == s) {
-                System.out.println("YES");
-                continue;
-            }
-
-            System.out.println(Arrays.toString(cumulative));
-            for(int i = 0; i < n; i++) {
-                int start = i; int end = 1;
-            }
+            System.out.println(sb);
         }
     }
 
