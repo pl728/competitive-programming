@@ -6,6 +6,7 @@ import java.util.StringTokenizer;
 public class A {
     public static void main(String[] args) {
         FastReader sc = new FastReader();
+        MathUtils mathUtils = new MathUtils();
         int t = sc.nextInt();
         for(int _i = 0; _i < t; _i++) {
 
@@ -93,5 +94,23 @@ public class A {
             return this.nextLine().toCharArray();
         }
 
+    }
+
+
+    static class MathUtils {
+        public MathUtils() {
+        }
+
+        public long gcdLong(long a, long b)
+        {
+            if(a%b==0)
+                return b;
+            else
+                return gcdLong(b,a%b);
+        }
+
+        public long lcmLong(long a, long b) {
+            return a * b / gcdLong(a, b);
+        }
     }
 }
