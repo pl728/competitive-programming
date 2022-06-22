@@ -1,4 +1,4 @@
-package cf.contest.round798;//package cf.contest;
+package cf.contest.round798;
 
 import java.util.*;
 

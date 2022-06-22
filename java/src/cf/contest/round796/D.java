@@ -1,15 +1,55 @@
+//package cf.contest.round796;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class A {
+public class D {
     public static void main(String[] args) {
         FastReader sc = new FastReader();
         int t = sc.nextInt();
         for(int _i = 0; _i < t; _i++) {
-
+            int n = sc.nextInt();
+            int k = sc.nextInt();
+            int[] a = sc.readIntArray(n);
+            if(k < n) {
+                // find maximum subarray
+                long extra = ((long) k * (k - 1)) / 2;
+                System.out.println(maxSubArray(a, k) + extra);
+            } else {
+                System.out.println(sumArray(a) + n*(long) k - ((long) n * (n + 1) / 2));
+            }
         }
+    }
+
+    public static long sumArray(int[] a) {
+        long sum = 0;
+        for(int i = 0; i < a.length; i++) {
+            sum += a[i];
+        }
+
+        return sum;
+    }
+
+    public static long maxSubArray(int[] a, int k) {
+        long currentSum = 0;
+        int i = 0;
+        while(i < k) {
+            currentSum += a[i];
+            i++;
+        }
+        long maxSum = currentSum;
+
+        int j = 0;
+        while(i < a.length) {
+            currentSum -= a[j];
+            currentSum += a[i];
+            maxSum = Math.max(maxSum, currentSum);
+            i++;
+            j++;
+        }
+        return maxSum;
     }
 
     static class FastReader {

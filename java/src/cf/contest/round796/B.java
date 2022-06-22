@@ -1,56 +1,120 @@
 package cf.contest.round796;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class B {
     public static void main(String[] args) {
-        // [2, 2, 2, 3, 3]
-        Scanner sc = new Scanner(System.in);
+        FastReader sc = new FastReader();
         int t = sc.nextInt();
-
-        for (int x = 0; x < t; x++) {
+        for(int _i = 0; _i < t; _i++) {
             int n = sc.nextInt();
-            int[] a = new int[n];
-            boolean hasOdd = false;
+            int[] a = sc.readIntArray(n);
+            int num = Integer.MAX_VALUE;
             int numEven = 0;
-            boolean hasSpecial = false;
-            int smallestEven = 2;
+            int numOdd = 0;
             for(int i = 0; i < n; i++) {
-                a[i] = sc.nextInt();
-                if(a[i] % 2 == 1) {
-                    hasOdd = true;
-                } else {
-                    numEven++;
-                }
-                if(!hasSpecial && (a[i] - 2) % 4 == 0) {
-                    hasSpecial = true;
-                }
-
                 if(a[i] % 2 == 0) {
-                    smallestEven = Math.min(smallestEven, a[i]);
+                    numEven++;
+                    num = Math.min(num, divides(a[i]));
+                } else {
+                    numOdd++;
                 }
             }
-            if(hasOdd) {
+            if(numEven == 0) {
+                System.out.println(0);
+            } else if (numOdd > 0) {
                 System.out.println(numEven);
-                continue;
             } else {
-                // array has no odd numbers, need to make an odd number
-                if(hasSpecial) {
-                    System.out.println(numEven);
-                } else {
-
-                }
+                System.out.println(num + n - 1);
             }
         }
     }
 
-    public static int f(int x) {
-        int count = 0;
+    public static int divides(int x) {
+        int c = 0;
         while(x % 2 == 0) {
             x /= 2;
-            count++;
+            c++;
         }
 
-        return count;
+        return c;
+    }
+
+    static class FastReader {
+        /**
+         * Uses BufferedReader and StringTokenizer for quick java I/O
+         * get next int, long, double, string
+         * get int, long, double, string arrays, both primitive and wrapped object when array contains all elements
+         * on one line, and we know the array size (n)
+         * next: gets next space separated item
+         * nextLine: returns entire line as space
+         */
+        BufferedReader br;
+        StringTokenizer st;
+
+        public FastReader() {
+            this.br = new BufferedReader(new InputStreamReader(System.in));
+        }
+
+        public String next() {
+            while (st == null || !st.hasMoreElements()) {
+                try {
+                    st = new StringTokenizer(br.readLine());
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            return st.nextToken();
+        }
+
+        public String nextLine() {
+            String str = "";
+            try {
+                str = br.readLine();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return str;
+        }
+
+        public String[] readStringArray(int n) {
+            String line = "";
+            try {
+                line = br.readLine();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return line.split(" ");
+        }
+
+        // to parse something else:
+        // T x = T.parseT(fastReader.next());
+        public int nextInt() {
+            return Integer.parseInt(next());
+        }
+
+        public int[] readIntArray(int n) {
+            int[] result = new int[n];
+            for (int i = 0; i < n; i++) {
+                result[i] = this.nextInt();
+            }
+            return result;
+        }
+
+        public Integer[] readIntArrayObject(int n) {
+            Integer[] result = new Integer[n];
+            for (int i = 0; i < n; i++) {
+                result[i] = this.nextInt();
+            }
+            return result;
+        }
+
+        public char[] readCharArray(int n) {
+            return this.nextLine().toCharArray();
+        }
+
     }
 }
