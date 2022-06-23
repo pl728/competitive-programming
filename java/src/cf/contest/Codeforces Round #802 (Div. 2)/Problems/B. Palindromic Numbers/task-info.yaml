@@ -1,0 +1,37 @@
+type: codeforces
+files:
+- name: testData/1/input.txt
+  visible: true
+  text: |-
+    3
+    2
+    99
+    4
+    1023
+    3
+    385
+  learner_created: false
+- name: testData/1/output.txt
+  visible: true
+  text: |-
+    32
+    8646
+    604
+  learner_created: false
+- name: src/Main.java
+  visible: true
+  text: |-
+    /**
+     * Accomplished using the EduTools plugin by JetBrains https://plugins.jetbrains.com/plugin/10081-edutools
+     *
+     * To modify the template, go to Preferences -> Editor -> File and Code Templates -> Other
+     */
+
+    public class Main {
+       public static void main(String[] args) {
+          // Write your solution here
+       }
+    }
+  learner_created: false
+feedback_link: https://codeforces.com/contest/1700/problem/B?locale=en
+status: Unchecked
