@@ -138,15 +138,6 @@ public class E {
         public long lcmLong(long a, long b) {
             return a * b / gcdLong(a, b);
         }
-
-        public int sumArray(int[] a) {
-            int ans = 0;
-            for (int i = 0; i < a.length; i++) {
-                ans += a[i];
-            }
-
-            return ans;
-        }
     }
 
     static class ArrayUtils {
@@ -164,6 +155,15 @@ public class E {
             }
 
             return b;
+        }
+
+        public int sumArray(int[] a) {
+            int ans = 0;
+            for (int i = 0; i < a.length; i++) {
+                ans += a[i];
+            }
+
+            return ans;
         }
     }
 }
