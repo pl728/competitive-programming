@@ -10,8 +10,44 @@ public class Main {
         ArrayUtils arrayUtils = new ArrayUtils();
 
         int t = sc.nextInt();
-        for(int _i = 0; _i < t; _i++) {
+        for (int _i = 0; _i < t; _i++) {
+            int n = sc.nextInt();
+            int[] a = sc.readIntArray(n);
 
+            // the person with the left most pile will lose in the case of equal minimums
+            if (n % 2 == 0) {
+                // find mike and joe's smallest pile and compare them
+                int mike_smallest = Integer.MAX_VALUE, joe_smallest = Integer.MAX_VALUE;
+                int x = -1, y = -1;
+                for (int i = 0; i < n; i++) {
+                    if (i % 2 == 0) {
+                        if (a[i] < mike_smallest) {
+                            x = i;
+                            mike_smallest = a[i];
+                        }
+                    } else {
+                        if (a[i] < joe_smallest) {
+                            y = i;
+                            joe_smallest = a[i];
+                        }
+                    }
+                }
+
+                if (mike_smallest == joe_smallest) {
+                    if (x < y) {
+                        System.out.println("Joe");
+                    } else {
+                        System.out.println("Mike");
+                    }
+                } else if (mike_smallest > joe_smallest) {
+                    System.out.println("Mike");
+                } else {
+                    System.out.println("Joe");
+                }
+
+            } else {
+                System.out.println("Mike");
+            }
         }
     }
 
@@ -106,12 +142,11 @@ public class Main {
         public MathUtils() {
         }
 
-        public long gcdLong(long a, long b)
-        {
-            if(a%b==0)
+        public long gcdLong(long a, long b) {
+            if (a % b == 0)
                 return b;
             else
-                return gcdLong(b,a%b);
+                return gcdLong(b, a % b);
         }
 
         public long lcmLong(long a, long b) {
@@ -123,8 +158,7 @@ public class Main {
         public ArrayUtils() {
         }
 
-        public static int[] reverse(int[] a)
-        {
+        public static int[] reverse(int[] a) {
             int n = a.length;
             int[] b = new int[n];
             int j = n;

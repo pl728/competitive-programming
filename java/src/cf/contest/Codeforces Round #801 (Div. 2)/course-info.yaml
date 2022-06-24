@@ -1,0 +1,17 @@
+type: codeforces
+title: 'Codeforces Round #801 (Div. 2) and EPIC Institute of Technology Round'
+language: English
+summary: |-
+  A. Subrectangle Guess
+  B. Circle Game
+  C. Zero Path
+  D1. Tree Queries (Easy Version)
+  D2. Tree Queries (Hard Version)
+  E. Ambiguous Dominoes
+programming_language: Java
+programming_language_version: 8
+content:
+- Problems
+end_date_time: 1655570100.000000000
+program_type_id: 36
+mode: Study

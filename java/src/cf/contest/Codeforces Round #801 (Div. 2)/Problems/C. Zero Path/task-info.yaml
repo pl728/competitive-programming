@@ -1,0 +1,38 @@
+type: codeforces
+files:
+- name: testData/1/input.txt
+  visible: true
+  text: |-
+    5
+    1 1
+    1
+    1 2
+    1 -1
+    1 4
+    1 -1 1 -1
+    3 4
+    1 -1 -1 -1
+    -1 1 1 -1
+    1 1 1 -1
+    3 4
+    1 -1 1 1
+    -1 1 -1 1
+    1 -1 1 1
+  learner_created: false
+- name: testData/1/output.txt
+  visible: true
+  text: |-
+    NO
+    YES
+    YES
+    YES
+    NO
+  learner_created: false
+- name: src/Main.java
+  visible: true
+  learner_created: true
+- name: testData/1/latest_output.txt
+  visible: true
+  learner_created: true
+feedback_link: https://codeforces.com/contest/1695/problem/C?locale=en
+status: Failed
