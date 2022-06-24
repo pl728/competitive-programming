@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/A. Optimal Path" />
+            <option value="$PROJECT_DIR$/Problems/B. Palindromic Numbers" />
+            <option value="$PROJECT_DIR$/Problems/C. Helping the Nature" />
+            <option value="$PROJECT_DIR$/Problems/D. River Locks" />
+            <option value="$PROJECT_DIR$/Problems/E. Serega the Pirate" />
+            <option value="$PROJECT_DIR$/Problems/F. Puzzle" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
