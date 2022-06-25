@@ -1,0 +1,135 @@
+<div class="problem-statement">
+ <div class="header">
+  <div class="title">
+   H. Maximum Product?
+  </div>
+  <div class="time-limit">
+   <div class="property-title">
+    time limit per test
+   </div>1.5 seconds
+  </div>
+  <div class="memory-limit">
+   <div class="property-title">
+    memory limit per test
+   </div>512 megabytes
+  </div>
+  <div class="input-file">
+   <div class="property-title">
+    input
+   </div>standard input
+  </div>
+  <div class="output-file">
+   <div class="property-title">
+    output
+   </div>standard output
+  </div>
+ </div>
+ <div>
+  <p>You are given a positive integer $k$. For a multiset of integers $S$, define $f(S)$ as the following.</p>
+  <ul> 
+   <li> If the number of elements in $S$ is less than $k$, $f(S)=0$. </li>
+   <li> Otherwise, define $f(S)$ as the maximum product you can get by choosing exactly $k$ integers from $S$. </li>
+  </ul>
+  <p>More formally, let $|S|$ denote the number of elements in $S$. Then,</p>
+  <ul> 
+   <li> If $|S|&lt;k$, $f(S)=0$. </li>
+   <li> Otherwise, $f(S)=\max\limits_{T\subseteq S,|T|=k}\left(\prod\limits_{i\in T}i\right)$. </li>
+  </ul>
+  <p>You are given a multiset of integers, $A$. Compute $\sum\limits_{B\subseteq A} f(B)$ modulo $10^9+7$.</p>
+  <p>Note that in this problem, <span class="tex-font-style-bf">we distinguish the elements by indices instead of values</span>. That is, a multiset consisting of $n$ elements always has $2^n$ distinct subsets regardless of whether some of its elements are equal.</p>
+ </div>
+ <div class="input-specification">
+  <div class="section-title">
+   Input
+  </div>
+  <p>The first line of input contains two integers $n$ and $k$, where $n$ is the number of elements in $A$ ($1\le k\le n\le 600$).</p>
+  <p>The second line of input contains $n$ integers $a_1,a_2,\dots,a_n$, describing the elements in $A$ ($-10^9\le a_i\le 10^9$).</p>
+ </div>
+ <div class="output-specification">
+  <div class="section-title">
+   Output
+  </div>
+  <p>Output $\sum\limits_{B\subseteq A} f(B)$ modulo $10^9+7$.</p>
+ </div>
+ <div class="sample-tests">
+  <div class="section-title">
+   Examples
+  </div>
+  <div class="sample-test">
+   <div class="input">
+    <div class="title">
+     Input
+    </div>
+    <pre>3 2
+-1 2 4
+</pre>
+   </div>
+   <div class="output">
+    <div class="title">
+     Output
+    </div>
+    <pre>10</pre>
+   </div>
+   <div class="input">
+    <div class="title">
+     Input
+    </div>
+    <pre>3 1
+1 1 1
+</pre>
+   </div>
+   <div class="output">
+    <div class="title">
+     Output
+    </div>
+    <pre>7</pre>
+   </div>
+   <div class="input">
+    <div class="title">
+     Input
+    </div>
+    <pre>10 4
+-24 -41 9 -154 -56 14 18 53 -7 120
+</pre>
+   </div>
+   <div class="output">
+    <div class="title">
+     Output
+    </div>
+    <pre>225905161</pre>
+   </div>
+   <div class="input">
+    <div class="title">
+     Input
+    </div>
+    <pre>15 5
+0 0 2 -2 2 -2 3 -3 -3 4 5 -4 -4 4 5
+</pre>
+   </div>
+   <div class="output">
+    <div class="title">
+     Output
+    </div>
+    <pre>18119684</pre>
+   </div>
+  </div>
+ </div>
+ <div class="note">
+  <div class="section-title">
+   Note
+  </div>
+  <p>Consider the first sample. From the definitions we know that</p>
+  <ul> 
+   <li> $f(\varnothing)=0$ </li>
+   <li> $f(\{-1\})=0$ </li>
+   <li> $f(\{2\})=0$ </li>
+   <li> $f(\{4\})=0$ </li>
+   <li> $f(\{-1,2\})=-2$ </li>
+   <li> $f(\{-1,4\})=-4$ </li>
+   <li> $f(\{2,4\})=8$ </li>
+   <li> $f(\{-1,2,4\})=8$ </li>
+  </ul>
+  <p>So we should print $(0+0+0+0-2-4+8+8)\bmod (10^9+7)=10$.</p>
+  <p>In the second example, note that although the multiset consists of three same values, it still has $8$ distinct subsets: $\varnothing,\{1\},\{1\},\{1\},\{1,1\},\{1,1\},\{1,1\},\{1,1,1\}$.</p>
+ </div>
+</div>
