@@ -27,6 +27,9 @@ public class Main {
                     numZero++;
                 }
                 set.add(a[i]);
+                if(positive.size() > 2 || negative.size() > 2) {
+                    break;
+                }
             }
 
             if (positive.size() > 2 || negative.size() > 2) {
@@ -35,6 +38,10 @@ public class Main {
                 continue;
             }
             int z = positive.size() + negative.size();
+            if(z == 0 || z == 1) {
+                System.out.println("YES");
+                continue;
+            }
             boolean ans = true;
             int[] posNeg = new int[z];
             int c = 0;
