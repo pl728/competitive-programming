@@ -11,7 +11,14 @@ public class Main {
 
         int t = sc.nextInt();
         for(int _i = 0; _i < t; _i++) {
+            int n = sc.nextInt();
+            int m = sc.nextInt();
 
+            long ans = 0;
+            ans += ((long) (m - 1) * (m)) / 2;
+            ans += m * (long) n * (n + 1) / 2;
+
+            System.out.println(ans);
         }
     }
 

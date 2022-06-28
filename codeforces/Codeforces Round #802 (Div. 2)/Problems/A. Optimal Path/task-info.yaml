@@ -175,5 +175,10 @@ files:
         }
     }
   learner_created: false
+- name: testData/1/latest_output.txt
+  visible: true
+  learner_created: true
 feedback_link: https://codeforces.com/contest/1700/problem/A?locale=en
-status: Unchecked
+status: Solved
+feedback:
+  time: Mon, 27 Jun 2022 02:15:56 UTC

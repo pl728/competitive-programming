@@ -10,9 +10,59 @@ public class Main {
         ArrayUtils arrayUtils = new ArrayUtils();
 
         int t = sc.nextInt();
-        for(int _i = 0; _i < t; _i++) {
+        for (int _i = 0; _i < t; _i++) {
+            int n = sc.nextInt();
+            String str = sc.nextLine();
 
+            StringBuilder sb = new StringBuilder();
+
+            for(int i = 0; i < n; i++) {
+                sb.append(9 - Integer.parseInt(String.valueOf(str.charAt(i))));
+//                System.out.println("test: " + sb);
+
+            }
+            if(sb.charAt(0) == '0') {
+                // add 11111...12
+                sb.delete(0, 1);
+                String x = sb.toString();
+                StringBuilder oneonetwo = new StringBuilder();
+                for(int i = 0; i < n - 1; i++) {
+                    oneonetwo.append('1');
+                }
+                oneonetwo.append('2');
+                String y = oneonetwo.toString();
+                String z = addTwoNums(x, y);
+                System.out.println(z);
+            } else {
+                System.out.println(sb);
+            }
         }
+    }
+
+    static String addTwoNums(String x, String y) {
+        // x is n-1, y is n
+        StringBuilder sb = new StringBuilder();
+        int carry = 0;
+        for(int i = y.length() - 1; i >= 0; i--) {
+            int toAdd;
+            if(i == 0) {
+                toAdd = Integer.parseInt(String.valueOf(y.charAt(i))) + carry;
+            } else {
+                toAdd = Integer.parseInt(String.valueOf(y.charAt(i))) + Integer.parseInt(String.valueOf(x.charAt(i - 1))) + carry;
+                if(toAdd > 9) {
+                    carry = 1;
+                } else {
+                    carry = 0;
+                }
+
+                toAdd %= 10;
+            }
+
+            sb.insert(0, toAdd);
+        }
+
+
+        return sb.toString();
     }
 
     static class FastReader {
@@ -106,12 +156,11 @@ public class Main {
         public MathUtils() {
         }
 
-        public long gcdLong(long a, long b)
-        {
-            if(a%b==0)
+        public long gcdLong(long a, long b) {
+            if (a % b == 0)
                 return b;
             else
-                return gcdLong(b,a%b);
+                return gcdLong(b, a % b);
         }
 
         public long lcmLong(long a, long b) {
@@ -123,8 +172,7 @@ public class Main {
         public ArrayUtils() {
         }
 
-        public static int[] reverse(int[] a)
-        {
+        public static int[] reverse(int[] a) {
             int n = a.length;
             int[] b = new int[n];
             int j = n;
