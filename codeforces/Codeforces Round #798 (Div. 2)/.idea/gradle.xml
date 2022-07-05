@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/A. Lex String" />
+            <option value="$PROJECT_DIR$/Problems/B. Mystic Permutation" />
+            <option value="$PROJECT_DIR$/Problems/C. Infected Tree" />
+            <option value="$PROJECT_DIR$/Problems/D. Lena and Matrix" />
+            <option value="$PROJECT_DIR$/Problems/E. ANDfinity" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

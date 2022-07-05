@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Main {
@@ -10,8 +11,21 @@ public class Main {
         ArrayUtils arrayUtils = new ArrayUtils();
 
         int t = sc.nextInt();
-        for(int _i = 0; _i < t; _i++) {
+        for (int _i = 0; _i < t; _i++) {
+            int n = sc.nextInt();
+            int[] a = sc.readIntArray(n);
+            long ans = 0;
+            long x = a[0];
+            for(int i = 1; i < n; i++) {
+                long d = a[i] - a[i - 1];
+                ans += Math.abs(d);
+                if(d < 0) {
+                    x += d;
+                }
+            }
 
+            ans += Math.abs(x);
+            System.out.println(ans);
         }
     }
 

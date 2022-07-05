@@ -10,7 +10,7 @@ files:
   learner_created: false
 - name: testData/2/input.txt
   visible: true
-  text: 001
+  text: 1
   learner_created: false
 - name: testData/2/output.txt
   visible: true
@@ -26,7 +26,7 @@ files:
   learner_created: false
 - name: testData/4/input.txt
   visible: true
-  text: 00000
+  text: 0
   learner_created: false
 - name: testData/4/output.txt
   visible: true
@@ -34,7 +34,7 @@ files:
   learner_created: false
 - name: testData/5/input.txt
   visible: true
-  text: 00000111110000011111000001111101010
+  text: 111110000011111000001111101010
   learner_created: false
 - name: testData/5/output.txt
   visible: true

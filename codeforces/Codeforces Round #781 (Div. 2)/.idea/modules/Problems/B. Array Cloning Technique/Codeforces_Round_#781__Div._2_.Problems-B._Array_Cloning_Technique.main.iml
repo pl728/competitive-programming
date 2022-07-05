@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-B._Array_Cloning_Technique:main" external.linked.project.path="$MODULE_DIR$/../../../../Problems/B. Array Cloning Technique" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Codeforces_Round_#781__Div._2_" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../Problems/B. Array Cloning Technique/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/B. Array Cloning Technique/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../Problems/B. Array Cloning Technique/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Codeforces_Round_#781__Div._2_.util.main" />
+  </component>
+</module>
