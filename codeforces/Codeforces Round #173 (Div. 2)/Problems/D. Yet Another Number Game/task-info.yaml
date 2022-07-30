@@ -1,5 +1,35 @@
 type: codeforces
 files:
+- name: testData/1/input.txt
+  visible: true
+  text: |-
+    2
+    1 1
+  learner_created: false
+- name: testData/1/output.txt
+  visible: true
+  text: BitLGM
+  learner_created: false
+- name: testData/2/input.txt
+  visible: true
+  text: |-
+    2
+    1 2
+  learner_created: false
+- name: testData/2/output.txt
+  visible: true
+  text: BitAryo
+  learner_created: false
+- name: testData/3/input.txt
+  visible: true
+  text: |-
+    3
+    1 2 1
+  learner_created: false
+- name: testData/3/output.txt
+  visible: true
+  text: BitLGM
+  learner_created: false
 - name: src/Main.java
   visible: true
   text: "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\n\
@@ -54,36 +84,6 @@ files:
     \ int sumArray(int[] a) {\n            int ans = 0;\n            for (int i =\
     \ 0; i < a.length; i++) {\n                ans += a[i];\n            }\n\n   \
     \         return ans;\n        }\n    }\n}\n"
-  learner_created: false
-- name: testData/1/input.txt
-  visible: true
-  text: |-
-    2
-    1 1
-  learner_created: false
-- name: testData/1/output.txt
-  visible: true
-  text: BitLGM
-  learner_created: false
-- name: testData/2/input.txt
-  visible: true
-  text: |-
-    2
-    1 2
-  learner_created: false
-- name: testData/2/output.txt
-  visible: true
-  text: BitAryo
-  learner_created: false
-- name: testData/3/input.txt
-  visible: true
-  text: |-
-    3
-    1 2 1
-  learner_created: false
-- name: testData/3/output.txt
-  visible: true
-  text: BitLGM
   learner_created: false
 feedback_link: https://codeforces.com/contest/282/problem/D?locale=en
 status: Unchecked

@@ -77,4 +77,4 @@ files:
     \         return ans;\n        }\n    }\n}\n"
   learner_created: false
 feedback_link: https://codeforces.com/contest/1705/problem/B?locale=en
-status: Unchecked
+status: Solved

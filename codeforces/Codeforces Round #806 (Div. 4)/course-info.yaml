@@ -1,0 +1,18 @@
+type: codeforces
+title: 'Codeforces Round #806 (Div. 4)'
+language: English
+summary: |-
+  A. YES or YES?
+  B. ICPC Balloons
+  C. Cypher
+  D. Double Strings
+  E. Mirror Grid
+  F. Yet Another Problem About Pairs Satisfying an Inequality
+  G. Good Key, Bad Key
+programming_language: Java
+programming_language_version: 11
+content:
+- Problems
+end_date_time: 1657644600.000000000
+program_type_id: 60
+mode: Study

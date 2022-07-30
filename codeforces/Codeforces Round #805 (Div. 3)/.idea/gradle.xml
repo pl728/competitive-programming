@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/A. Round Down the Price" />
+            <option value="$PROJECT_DIR$/Problems/B. Polycarp Writes a String from Memory" />
+            <option value="$PROJECT_DIR$/Problems/C. Train and Queries" />
+            <option value="$PROJECT_DIR$/Problems/D. Not a Cheap String" />
+            <option value="$PROJECT_DIR$/Problems/E. Split Into Two Sets" />
+            <option value="$PROJECT_DIR$/Problems/F. Equate Multisets" />
+            <option value="$PROJECT_DIR$/Problems/G1. Passable Paths (easy version)" />
+            <option value="$PROJECT_DIR$/Problems/G2. Passable Paths (hard version)" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

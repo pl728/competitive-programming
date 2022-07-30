@@ -1,0 +1,19 @@
+type: codeforces
+title: 'Codeforces Round #805 (Div. 3)'
+language: English
+summary: |-
+  A. Round Down the Price
+  B. Polycarp Writes a String from Memory
+  C. Train and Queries
+  D. Not a Cheap String
+  E. Split Into Two Sets
+  F. Equate Multisets
+  G1. Passable Paths (easy version)
+  G2. Passable Paths (hard version)
+programming_language: Java
+programming_language_version: 11
+content:
+- Problems
+end_date_time: 1657471800.000000000
+program_type_id: 60
+mode: Study

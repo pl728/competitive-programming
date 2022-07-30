@@ -1,5 +1,28 @@
 type: codeforces
 files:
+- name: testData/1/input.txt
+  visible: true
+  text: |-
+    2
+    1 999
+    999 1
+  learner_created: false
+- name: testData/1/output.txt
+  visible: true
+  text: AG
+  learner_created: false
+- name: testData/2/input.txt
+  visible: true
+  text: |-
+    3
+    400 600
+    400 600
+    400 600
+  learner_created: false
+- name: testData/2/output.txt
+  visible: true
+  text: AGA
+  learner_created: false
 - name: src/Main.java
   visible: true
   text: "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\n\
@@ -55,28 +78,13 @@ files:
     \ 0; i < a.length; i++) {\n                ans += a[i];\n            }\n\n   \
     \         return ans;\n        }\n    }\n}\n"
   learner_created: false
-- name: testData/1/input.txt
+- name: testData/1/latest_output.txt
   visible: true
-  text: |-
-    2
-    1 999
-    999 1
-  learner_created: false
-- name: testData/1/output.txt
+  learner_created: true
+- name: testData/2/latest_output.txt
   visible: true
-  text: AG
-  learner_created: false
-- name: testData/2/input.txt
-  visible: true
-  text: |-
-    3
-    400 600
-    400 600
-    400 600
-  learner_created: false
-- name: testData/2/output.txt
-  visible: true
-  text: AGA
-  learner_created: false
+  learner_created: true
 feedback_link: https://codeforces.com/contest/282/problem/B?locale=en
-status: Unchecked
+status: Solved
+feedback:
+  time: Mon, 18 Jul 2022 02:39:46 UTC

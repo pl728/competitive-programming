@@ -86,5 +86,25 @@ files:
     \ 0; i < a.length; i++) {\n                ans += a[i];\n            }\n\n   \
     \         return ans;\n        }\n    }\n}\n"
   learner_created: false
+- name: testData/1/latest_output.txt
+  visible: true
+  learner_created: true
 feedback_link: https://codeforces.com/contest/1705/problem/C?locale=en
-status: Unchecked
+status: Failed
+feedback:
+  message: Test '1' failed
+  time: Fri, 15 Jul 2022 15:49:54 UTC
+  expected: |-
+    m
+    a
+    r
+    e
+    a
+    r
+  actual: |-
+    m
+    a
+    r
+    a
+    a
+    r

@@ -70,5 +70,10 @@ files:
     \ 0; i < a.length; i++) {\n                ans += a[i];\n            }\n\n   \
     \         return ans;\n        }\n    }\n}\n"
   learner_created: false
+- name: testData/1/latest_output.txt
+  visible: true
+  learner_created: true
 feedback_link: https://codeforces.com/contest/1701/problem/B?locale=en
-status: Unchecked
+status: Solved
+feedback:
+  time: Fri, 08 Jul 2022 15:28:10 UTC

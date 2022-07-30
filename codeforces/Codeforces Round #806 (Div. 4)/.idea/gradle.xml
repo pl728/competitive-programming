@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/A. YES or YES" />
+            <option value="$PROJECT_DIR$/Problems/B. ICPC Balloons" />
+            <option value="$PROJECT_DIR$/Problems/C. Cypher" />
+            <option value="$PROJECT_DIR$/Problems/D. Double Strings" />
+            <option value="$PROJECT_DIR$/Problems/E. Mirror Grid" />
+            <option value="$PROJECT_DIR$/Problems/F. Yet Another Problem About Pairs Satisfying an Inequality" />
+            <option value="$PROJECT_DIR$/Problems/G. Good Key, Bad Key" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

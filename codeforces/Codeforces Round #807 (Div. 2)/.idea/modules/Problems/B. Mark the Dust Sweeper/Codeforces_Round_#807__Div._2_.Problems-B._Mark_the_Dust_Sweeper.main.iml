@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-B._Mark_the_Dust_Sweeper:main" external.linked.project.path="$MODULE_DIR$/../../../../Problems/B. Mark the Dust Sweeper" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Codeforces_Round_#807__Div._2_" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../Problems/B. Mark the Dust Sweeper/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/B. Mark the Dust Sweeper/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../Problems/B. Mark the Dust Sweeper/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Codeforces_Round_#807__Div._2_.util.main" />
+  </component>
+</module>

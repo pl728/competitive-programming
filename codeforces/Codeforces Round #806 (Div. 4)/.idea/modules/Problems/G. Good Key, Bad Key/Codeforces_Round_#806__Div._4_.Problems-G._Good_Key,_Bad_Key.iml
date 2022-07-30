@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-G._Good_Key,_Bad_Key" external.linked.project.path="$MODULE_DIR$/../../../../Problems/G. Good Key, Bad Key" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Codeforces_Round_#806__Div._4_" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/G. Good Key, Bad Key">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/G. Good Key, Bad Key/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/G. Good Key, Bad Key/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/G. Good Key, Bad Key/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-C._Cypher" external.linked.project.path="$MODULE_DIR$/../../../../Problems/C. Cypher" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Codeforces_Round_#806__Div._4_" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/C. Cypher">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/C. Cypher/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/C. Cypher/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/C. Cypher/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

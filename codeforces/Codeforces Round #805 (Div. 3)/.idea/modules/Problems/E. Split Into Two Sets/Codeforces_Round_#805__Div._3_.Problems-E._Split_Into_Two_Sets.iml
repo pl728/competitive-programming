@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-E._Split_Into_Two_Sets" external.linked.project.path="$MODULE_DIR$/../../../../Problems/E. Split Into Two Sets" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Codeforces_Round_#805__Div._3_" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/E. Split Into Two Sets">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/E. Split Into Two Sets/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/E. Split Into Two Sets/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/E. Split Into Two Sets/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

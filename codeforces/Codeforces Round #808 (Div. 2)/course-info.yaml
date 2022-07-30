@@ -1,0 +1,17 @@
+type: codeforces
+title: 'Codeforces Round #808 (Div. 2)'
+language: English
+summary: |-
+  A. Difference Operations
+  B. Difference of GCDs
+  C. Doremy's IQ
+  D. Difference Array
+  E. DFS Trees
+  F. Partial Virtual Trees
+programming_language: Java
+programming_language_version: 11
+content:
+- Problems
+end_date_time: 1657989300.000000000
+program_type_id: 60
+mode: Study
