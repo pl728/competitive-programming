@@ -3,26 +3,35 @@ files:
 - name: testData/1/input.txt
   visible: true
   text: |-
-    3
-    5 2
-    3 1
-    4 2
+    2 3
+    a
+    b
   learner_created: false
 - name: testData/1/output.txt
   visible: true
-  text: 2
+  text: First
   learner_created: false
 - name: testData/2/input.txt
   visible: true
   text: |-
-    3
-    6 1
-    5 2
-    4 3
+    3 1
+    a
+    b
+    c
   learner_created: false
 - name: testData/2/output.txt
   visible: true
-  text: 6
+  text: First
+  learner_created: false
+- name: testData/3/input.txt
+  visible: true
+  text: |-
+    1 2
+    ab
+  learner_created: false
+- name: testData/3/output.txt
+  visible: true
+  text: Second
   learner_created: false
 - name: src/Main.java
   visible: true
@@ -79,14 +88,5 @@ files:
     \ 0; i < a.length; i++) {\n                ans += a[i];\n            }\n\n   \
     \         return ans;\n        }\n    }\n}\n"
   learner_created: false
-- name: testData/1/latest_output.txt
-  visible: true
-  learner_created: true
-- name: testData/2/latest_output.txt
-  visible: true
-  learner_created: true
-feedback_link: https://codeforces.com/contest/479/problem/C?locale=en
+feedback_link: https://codeforces.com/contest/455/problem/B?locale=en
 status: Unchecked
-feedback:
-  message: Testing
-  time: Sun, 31 Jul 2022 04:08:47 UTC

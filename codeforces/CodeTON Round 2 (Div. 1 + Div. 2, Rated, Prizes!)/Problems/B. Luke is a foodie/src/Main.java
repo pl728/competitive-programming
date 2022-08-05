@@ -1,7 +1,8 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.Arrays;
+import java.util.StringTokenizer;
 
 public class Main {
     static int globalVariable = 123456789;
@@ -12,32 +13,29 @@ public class Main {
         MathUtils mathUtils = new MathUtils();
         ArrayUtils arrayUtils = new ArrayUtils();
 
-        int n = sc.nextInt();
-        Map<Integer, List<Integer>> mapDates = new TreeMap<>();
-
-        for (int i = 0; i < n; i++) {
-            int a = sc.nextInt();
-            int b = sc.nextInt();
-            mapDates.putIfAbsent(a, new ArrayList<>());
-            mapDates.get(a).add(b);
-        }
-
-        for(int k : mapDates.keySet()) {
-            Collections.sort(mapDates.get(k));
-        }
-        int previousTestDay = -1;
-
-        for(int k : mapDates.keySet()) {
-            for(int allowedDay : mapDates.get(k)) {
-                if(allowedDay >= previousTestDay) {
-                    previousTestDay = allowedDay;
-                } else {
-                    previousTestDay = k;
+        int t = sc.nextInt();
+        while (t-- != 0) {
+            int n = sc.nextInt();
+            int x = sc.nextInt();
+            int[] a = sc.readIntArray(n);
+            int currMax = a[0];
+            int currMin = a[0];
+            int ans = 0;
+            for (int i = 1; i < n; i++) {
+//                System.out.println(currMin + " " + currMax);
+                currMax = Math.max(currMax, a[i]);
+                currMin = Math.min(currMin, a[i]);
+                if(Math.abs(currMax - currMin) > 2 * x) {
+//                    System.out.println(Math.abs(currMax - currMin) + ">=" + 2*x);
+                    currMin = a[i];
+                    currMax = a[i];
+                    ans++;
+//                    System.out.println("CHANGE");
                 }
             }
+            System.out.println(ans);
 
         }
-        System.out.println(previousTestDay);
     }
 
     static class FastReader {

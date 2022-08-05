@@ -1,43 +1,21 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.StringTokenizer;
 
 public class Main {
     static int globalVariable = 123456789;
     static String author = "pl728 on codeforces";
-
+    
     public static void main(String[] args) {
         FastReader sc = new FastReader();
         MathUtils mathUtils = new MathUtils();
         ArrayUtils arrayUtils = new ArrayUtils();
 
-        int n = sc.nextInt();
-        Map<Integer, List<Integer>> mapDates = new TreeMap<>();
-
-        for (int i = 0; i < n; i++) {
-            int a = sc.nextInt();
-            int b = sc.nextInt();
-            mapDates.putIfAbsent(a, new ArrayList<>());
-            mapDates.get(a).add(b);
-        }
-
-        for(int k : mapDates.keySet()) {
-            Collections.sort(mapDates.get(k));
-        }
-        int previousTestDay = -1;
-
-        for(int k : mapDates.keySet()) {
-            for(int allowedDay : mapDates.get(k)) {
-                if(allowedDay >= previousTestDay) {
-                    previousTestDay = allowedDay;
-                } else {
-                    previousTestDay = k;
-                }
-            }
+        int t = sc.nextInt();
+        while(t-- != 0) {
 
         }
-        System.out.println(previousTestDay);
     }
 
     static class FastReader {
@@ -131,11 +109,12 @@ public class Main {
         public MathUtils() {
         }
 
-        public long gcdLong(long a, long b) {
-            if (a % b == 0)
+        public long gcdLong(long a, long b)
+        {
+            if(a%b==0)
                 return b;
             else
-                return gcdLong(b, a % b);
+                return gcdLong(b,a%b);
         }
 
         public long lcmLong(long a, long b) {
@@ -147,7 +126,8 @@ public class Main {
         public ArrayUtils() {
         }
 
-        public static int[] reverse(int[] a) {
+        public static int[] reverse(int[] a)
+        {
             int n = a.length;
             int[] b = new int[n];
             int j = n;

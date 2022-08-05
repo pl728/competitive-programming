@@ -1,0 +1,20 @@
+type: codeforces
+title: CodeTON Round 2 (Div. 1 + Div. 2, Rated, Prizes!)
+language: English
+summary: |-
+  A. Two 0-1 sequences
+  B. Luke is a foodie
+  C. Virus
+  D. Magical Array
+  E. Count Seconds
+  F. Colouring Game
+  G. Mio and Lucky Array
+  H1. Game of AI (easy version)
+  H2. Game of AI (hard version)
+programming_language: Java
+programming_language_version: 11
+content:
+- Problems
+end_date_time: 1659285300.000000000
+program_type_id: 60
+mode: Study

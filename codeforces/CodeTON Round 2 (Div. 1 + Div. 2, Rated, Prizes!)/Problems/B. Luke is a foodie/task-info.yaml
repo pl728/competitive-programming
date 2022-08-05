@@ -3,26 +3,32 @@ files:
 - name: testData/1/input.txt
   visible: true
   text: |-
-    3
-    5 2
-    3 1
-    4 2
+    7
+    5 3
+    3 8 5 6 7
+    5 3
+    3 10 9 8 7
+    12 8
+    25 3 3 17 8 6 1 16 15 25 17 23
+    10 2
+    1 2 3 4 5 6 7 8 9 10
+    8 2
+    2 4 6 8 6 4 12 14
+    8 2
+    2 7 8 9 6 13 21 28
+    15 5
+    11 4 13 23 7 10 5 21 20 11 17 5 29 16 11
   learner_created: false
 - name: testData/1/output.txt
   visible: true
-  text: 2
-  learner_created: false
-- name: testData/2/input.txt
-  visible: true
   text: |-
-    3
-    6 1
-    5 2
-    4 3
-  learner_created: false
-- name: testData/2/output.txt
-  visible: true
-  text: 6
+    0
+    1
+    2
+    1
+    2
+    4
+    6
   learner_created: false
 - name: src/Main.java
   visible: true
@@ -82,11 +88,5 @@ files:
 - name: testData/1/latest_output.txt
   visible: true
   learner_created: true
-- name: testData/2/latest_output.txt
-  visible: true
-  learner_created: true
-feedback_link: https://codeforces.com/contest/479/problem/C?locale=en
-status: Unchecked
-feedback:
-  message: Testing
-  time: Sun, 31 Jul 2022 04:08:47 UTC
+feedback_link: https://codeforces.com/contest/1704/problem/B?locale=en
+status: Solved

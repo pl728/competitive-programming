@@ -2,27 +2,35 @@ type: codeforces
 files:
 - name: testData/1/input.txt
   visible: true
-  text: |-
-    3
-    5 2
-    3 1
-    4 2
+  text: 1 998244353
   learner_created: false
 - name: testData/1/output.txt
   visible: true
-  text: 2
+  text: 0
   learner_created: false
 - name: testData/2/input.txt
   visible: true
-  text: |-
-    3
-    6 1
-    5 2
-    4 3
+  text: 2 998244353
   learner_created: false
 - name: testData/2/output.txt
   visible: true
-  text: 6
+  text: 2
+  learner_created: false
+- name: testData/3/input.txt
+  visible: true
+  text: 3 998244353
+  learner_created: false
+- name: testData/3/output.txt
+  visible: true
+  text: 24
+  learner_created: false
+- name: testData/4/input.txt
+  visible: true
+  text: 8 998244353
+  learner_created: false
+- name: testData/4/output.txt
+  visible: true
+  text: 123391016
   learner_created: false
 - name: src/Main.java
   visible: true
@@ -79,14 +87,5 @@ files:
     \ 0; i < a.length; i++) {\n                ans += a[i];\n            }\n\n   \
     \         return ans;\n        }\n    }\n}\n"
   learner_created: false
-- name: testData/1/latest_output.txt
-  visible: true
-  learner_created: true
-- name: testData/2/latest_output.txt
-  visible: true
-  learner_created: true
-feedback_link: https://codeforces.com/contest/479/problem/C?locale=en
+feedback_link: https://codeforces.com/contest/1704/problem/H1?locale=en
 status: Unchecked
-feedback:
-  message: Testing
-  time: Sun, 31 Jul 2022 04:08:47 UTC

@@ -6,38 +6,31 @@ import java.util.*;
 public class Main {
     static int globalVariable = 123456789;
     static String author = "pl728 on codeforces";
-
+    
     public static void main(String[] args) {
         FastReader sc = new FastReader();
         MathUtils mathUtils = new MathUtils();
         ArrayUtils arrayUtils = new ArrayUtils();
 
         int n = sc.nextInt();
-        Map<Integer, List<Integer>> mapDates = new TreeMap<>();
-
-        for (int i = 0; i < n; i++) {
-            int a = sc.nextInt();
-            int b = sc.nextInt();
-            mapDates.putIfAbsent(a, new ArrayList<>());
-            mapDates.get(a).add(b);
+        int[] a = new int[n];
+        int[] count = new int[100005];
+        int max = -1;
+        for(int i = 0; i < n; i++) {
+            a[i] = sc.nextInt();
+            count[a[i]]++;
+            max = Math.max(max, a[i]);
         }
+        long[] dp = new long[max + 1];
 
-        for(int k : mapDates.keySet()) {
-            Collections.sort(mapDates.get(k));
+        dp[1] = count[1];
+        for(int i = 2; i <= max; i++) {
+            dp[i] = Math.max(dp[i-1], dp[i-2] + (long) count[i] * i);
         }
-        int previousTestDay = -1;
+        // 1 1 2 2 2 2 2 3 3
+        System.out.println(Arrays.toString(dp));
+        System.out.println(dp[max]);
 
-        for(int k : mapDates.keySet()) {
-            for(int allowedDay : mapDates.get(k)) {
-                if(allowedDay >= previousTestDay) {
-                    previousTestDay = allowedDay;
-                } else {
-                    previousTestDay = k;
-                }
-            }
-
-        }
-        System.out.println(previousTestDay);
     }
 
     static class FastReader {
@@ -131,11 +124,12 @@ public class Main {
         public MathUtils() {
         }
 
-        public long gcdLong(long a, long b) {
-            if (a % b == 0)
+        public long gcdLong(long a, long b)
+        {
+            if(a%b==0)
                 return b;
             else
-                return gcdLong(b, a % b);
+                return gcdLong(b,a%b);
         }
 
         public long lcmLong(long a, long b) {
@@ -147,7 +141,8 @@ public class Main {
         public ArrayUtils() {
         }
 
-        public static int[] reverse(int[] a) {
+        public static int[] reverse(int[] a)
+        {
             int n = a.length;
             int[] b = new int[n];
             int j = n;
