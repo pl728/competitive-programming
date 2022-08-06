@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/CodeTON Round 2 (Div. 1 + Div. 2, Rated, Prizes!)/Problems/A. Two 0-1 sequences" />
+            <option value="$PROJECT_DIR$/CodeTON Round 2 (Div. 1 + Div. 2, Rated, Prizes!)/Problems/B. Luke is a foodie" />
+            <option value="$PROJECT_DIR$/CodeTON Round 2 (Div. 1 + Div. 2, Rated, Prizes!)/Problems/C. Virus" />
+            <option value="$PROJECT_DIR$/CodeTON Round 2 (Div. 1 + Div. 2, Rated, Prizes!)/Problems/D. Magical Array" />
+            <option value="$PROJECT_DIR$/CodeTON Round 2 (Div. 1 + Div. 2, Rated, Prizes!)/Problems/E. Count Seconds" />
+            <option value="$PROJECT_DIR$/CodeTON Round 2 (Div. 1 + Div. 2, Rated, Prizes!)/Problems/F. Colouring Game" />
+            <option value="$PROJECT_DIR$/CodeTON Round 2 (Div. 1 + Div. 2, Rated, Prizes!)/Problems/G. Mio and Lucky Array" />
+            <option value="$PROJECT_DIR$/CodeTON Round 2 (Div. 1 + Div. 2, Rated, Prizes!)/Problems/H1. Game of AI (easy version)" />
+            <option value="$PROJECT_DIR$/CodeTON Round 2 (Div. 1 + Div. 2, Rated, Prizes!)/Problems/H2. Game of AI (hard version)" />
+            <option value="$PROJECT_DIR$/Codeforces Global Round 21/Problems/A. NIT orz" />
+            <option value="$PROJECT_DIR$/Codeforces Global Round 21/Problems/B. NIT Destroys the Universe" />
+            <option value="$PROJECT_DIR$/Codeforces Global Round 21/Problems/C. Fishingprince Plays With Array" />
+            <option value="$PROJECT_DIR$/Codeforces Global Round 21/Problems/D. Permutation Graph" />
+            <option value="$PROJECT_DIR$/Codeforces Global Round 21/Problems/E. Placing Jinas" />
+            <option value="$PROJECT_DIR$/Codeforces Global Round 21/Problems/F. Tree Recovery" />
+            <option value="$PROJECT_DIR$/Codeforces Global Round 21/Problems/G. Fishingprince Plays With Array Again" />
+            <option value="$PROJECT_DIR$/Codeforces Global Round 21/Problems/H. Maximum Product" />
+            <option value="$PROJECT_DIR$/Codeforces Round #173 (Div. 2)/Problems/A. Bit++" />
+            <option value="$PROJECT_DIR$/Codeforces Round #173 (Div. 2)/Problems/B. Painting Eggs" />
+            <option value="$PROJECT_DIR$/Codeforces Round #173 (Div. 2)/Problems/C. XOR and OR" />
+            <option value="$PROJECT_DIR$/Codeforces Round #173 (Div. 2)/Problems/D. Yet Another Number Game" />
+            <option value="$PROJECT_DIR$/Codeforces Round #173 (Div. 2)/Problems/E. Sausage Maximization" />
+            <option value="$PROJECT_DIR$/Codeforces Round #235 (Div. 2)/Problems/A. Vanya and Cards" />
+            <option value="$PROJECT_DIR$/Codeforces Round #235 (Div. 2)/Problems/B. Sereja and Contests" />
+            <option value="$PROJECT_DIR$/Codeforces Round #235 (Div. 2)/Problems/C. Team" />
+            <option value="$PROJECT_DIR$/Codeforces Round #235 (Div. 2)/Problems/D. Roman and Numbers" />
+            <option value="$PROJECT_DIR$/Codeforces Round #235 (Div. 2)/Problems/E. Olympic Games" />
+            <option value="$PROJECT_DIR$/Codeforces Round #260 (Div. 1)/Problems/A. Boredom" />
+            <option value="$PROJECT_DIR$/Codeforces Round #260 (Div. 1)/Problems/B. A Lot of Games" />
+            <option value="$PROJECT_DIR$/Codeforces Round #260 (Div. 1)/Problems/C. Civilization" />
+            <option value="$PROJECT_DIR$/Codeforces Round #260 (Div. 1)/Problems/D. Serega and Fun" />
+            <option value="$PROJECT_DIR$/Codeforces Round #260 (Div. 1)/Problems/E. Function" />
+            <option value="$PROJECT_DIR$/Codeforces Round #273 (Div. 2)/Problems/A. Initial Bet" />
+            <option value="$PROJECT_DIR$/Codeforces Round #273 (Div. 2)/Problems/B. Random Teams" />
+            <option value="$PROJECT_DIR$/Codeforces Round #273 (Div. 2)/Problems/C. Table Decorations" />
+            <option value="$PROJECT_DIR$/Codeforces Round #273 (Div. 2)/Problems/D. Red-Green Towers" />
+            <option value="$PROJECT_DIR$/Codeforces Round #273 (Div. 2)/Problems/E. Wavy numbers" />
+            <option value="$PROJECT_DIR$/Codeforces Round #274 (Div. 2)/Problems/A. Expression" />
+            <option value="$PROJECT_DIR$/Codeforces Round #274 (Div. 2)/Problems/B. Towers" />
+            <option value="$PROJECT_DIR$/Codeforces Round #274 (Div. 2)/Problems/C. Exams" />
+            <option value="$PROJECT_DIR$/Codeforces Round #274 (Div. 2)/Problems/D. Long Jumps" />
+            <option value="$PROJECT_DIR$/Codeforces Round #274 (Div. 2)/Problems/E. Riding in a Lift" />
+            <option value="$PROJECT_DIR$/Codeforces Round #277.5 (Div. 2)/Problems/A. SwapSort" />
+            <option value="$PROJECT_DIR$/Codeforces Round #277.5 (Div. 2)/Problems/B. BerSU Ball" />
+            <option value="$PROJECT_DIR$/Codeforces Round #277.5 (Div. 2)/Problems/C. Given Length and Sum of Digits" />
+            <option value="$PROJECT_DIR$/Codeforces Round #277.5 (Div. 2)/Problems/D. Unbearable Controversy of Being" />
+            <option value="$PROJECT_DIR$/Codeforces Round #277.5 (Div. 2)/Problems/E. Hiking" />
+            <option value="$PROJECT_DIR$/Codeforces Round #277.5 (Div. 2)/Problems/F. Special Matrices" />
+            <option value="$PROJECT_DIR$/Codeforces Round #781 (Div. 2)/Problems/A. GCD vs LCM" />
+            <option value="$PROJECT_DIR$/Codeforces Round #781 (Div. 2)/Problems/B. Array Cloning Technique" />
+            <option value="$PROJECT_DIR$/Codeforces Round #781 (Div. 2)/Problems/C. Tree Infection" />
+            <option value="$PROJECT_DIR$/Codeforces Round #781 (Div. 2)/Problems/D. GCD Guess" />
+            <option value="$PROJECT_DIR$/Codeforces Round #781 (Div. 2)/Problems/E. MinimizOR" />
+            <option value="$PROJECT_DIR$/Codeforces Round #798 (Div. 2)/Problems/A. Lex String" />
+            <option value="$PROJECT_DIR$/Codeforces Round #798 (Div. 2)/Problems/B. Mystic Permutation" />
+            <option value="$PROJECT_DIR$/Codeforces Round #798 (Div. 2)/Problems/C. Infected Tree" />
+            <option value="$PROJECT_DIR$/Codeforces Round #798 (Div. 2)/Problems/D. Lena and Matrix" />
+            <option value="$PROJECT_DIR$/Codeforces Round #798 (Div. 2)/Problems/E. ANDfinity" />
+            <option value="$PROJECT_DIR$/Codeforces Round #801 (Div. 2)/Problems/A. Subrectangle Guess" />
+            <option value="$PROJECT_DIR$/Codeforces Round #801 (Div. 2)/Problems/B. Circle Game" />
+            <option value="$PROJECT_DIR$/Codeforces Round #801 (Div. 2)/Problems/C. Zero Path" />
+            <option value="$PROJECT_DIR$/Codeforces Round #801 (Div. 2)/Problems/D1. Tree Queries (Easy Version)" />
+            <option value="$PROJECT_DIR$/Codeforces Round #801 (Div. 2)/Problems/D2. Tree Queries (Hard Version)" />
+            <option value="$PROJECT_DIR$/Codeforces Round #801 (Div. 2)/Problems/E. Ambiguous Dominoes" />
+            <option value="$PROJECT_DIR$/Codeforces Round #802 (Div. 2)/Problems/A. Optimal Path" />
+            <option value="$PROJECT_DIR$/Codeforces Round #802 (Div. 2)/Problems/B. Palindromic Numbers" />
+            <option value="$PROJECT_DIR$/Codeforces Round #802 (Div. 2)/Problems/C. Helping the Nature" />
+            <option value="$PROJECT_DIR$/Codeforces Round #802 (Div. 2)/Problems/D. River Locks" />
+            <option value="$PROJECT_DIR$/Codeforces Round #802 (Div. 2)/Problems/E. Serega the Pirate" />
+            <option value="$PROJECT_DIR$/Codeforces Round #802 (Div. 2)/Problems/F. Puzzle" />
+            <option value="$PROJECT_DIR$/Codeforces Round #803 (Div. 2)/Problems/A. XOR Mixup" />
+            <option value="$PROJECT_DIR$/Codeforces Round #803 (Div. 2)/Problems/B. Rising Sand" />
+            <option value="$PROJECT_DIR$/Codeforces Round #803 (Div. 2)/Problems/C. 3SUM Closure" />
+            <option value="$PROJECT_DIR$/Codeforces Round #803 (Div. 2)/Problems/D. Fixed Point Guessing" />
+            <option value="$PROJECT_DIR$/Codeforces Round #803 (Div. 2)/Problems/E. PermutationForces II" />
+            <option value="$PROJECT_DIR$/Codeforces Round #803 (Div. 2)/Problems/F. Equal Reversal" />
+            <option value="$PROJECT_DIR$/Codeforces Round #803 (Div. 2)/Problems/G. Long Binary String" />
+            <option value="$PROJECT_DIR$/Codeforces Round #805 (Div. 3)/Problems/A. Round Down the Price" />
+            <option value="$PROJECT_DIR$/Codeforces Round #805 (Div. 3)/Problems/B. Polycarp Writes a String from Memory" />
+            <option value="$PROJECT_DIR$/Codeforces Round #805 (Div. 3)/Problems/C. Train and Queries" />
+            <option value="$PROJECT_DIR$/Codeforces Round #805 (Div. 3)/Problems/D. Not a Cheap String" />
+            <option value="$PROJECT_DIR$/Codeforces Round #805 (Div. 3)/Problems/E. Split Into Two Sets" />
+            <option value="$PROJECT_DIR$/Codeforces Round #805 (Div. 3)/Problems/F. Equate Multisets" />
+            <option value="$PROJECT_DIR$/Codeforces Round #805 (Div. 3)/Problems/G1. Passable Paths (easy version)" />
+            <option value="$PROJECT_DIR$/Codeforces Round #805 (Div. 3)/Problems/G2. Passable Paths (hard version)" />
+            <option value="$PROJECT_DIR$/Codeforces Round #806 (Div. 4)/Problems/A. YES or YES" />
+            <option value="$PROJECT_DIR$/Codeforces Round #806 (Div. 4)/Problems/B. ICPC Balloons" />
+            <option value="$PROJECT_DIR$/Codeforces Round #806 (Div. 4)/Problems/C. Cypher" />
+            <option value="$PROJECT_DIR$/Codeforces Round #806 (Div. 4)/Problems/D. Double Strings" />
+            <option value="$PROJECT_DIR$/Codeforces Round #806 (Div. 4)/Problems/E. Mirror Grid" />
+            <option value="$PROJECT_DIR$/Codeforces Round #806 (Div. 4)/Problems/F" />
+            <option value="$PROJECT_DIR$/Codeforces Round #806 (Div. 4)/Problems/G. Good Key, Bad Key" />
+            <option value="$PROJECT_DIR$/Codeforces Round #807 (Div. 2)/Problems/A. Mark the Photographer" />
+            <option value="$PROJECT_DIR$/Codeforces Round #807 (Div. 2)/Problems/B. Mark the Dust Sweeper" />
+            <option value="$PROJECT_DIR$/Codeforces Round #807 (Div. 2)/Problems/C. Mark and His Unfinished Essay" />
+            <option value="$PROJECT_DIR$/Codeforces Round #807 (Div. 2)/Problems/D. Mark and Lightbulbs" />
+            <option value="$PROJECT_DIR$/Codeforces Round #807 (Div. 2)/Problems/E. Mark and Professor Koro" />
+            <option value="$PROJECT_DIR$/Codeforces Round #807 (Div. 2)/Problems/F. Mark and the Online Exam" />
+            <option value="$PROJECT_DIR$/Codeforces Round #808 (Div. 2)/Problems/A. Difference Operations" />
+            <option value="$PROJECT_DIR$/Codeforces Round #808 (Div. 2)/Problems/B. Difference of GCDs" />
+            <option value="$PROJECT_DIR$/Codeforces Round #808 (Div. 2)/Problems/C. Doremy's IQ" />
+            <option value="$PROJECT_DIR$/Codeforces Round #808 (Div. 2)/Problems/D. Difference Array" />
+            <option value="$PROJECT_DIR$/Codeforces Round #808 (Div. 2)/Problems/E. DFS Trees" />
+            <option value="$PROJECT_DIR$/Codeforces Round #808 (Div. 2)/Problems/F. Partial Virtual Trees" />
+            <option value="$PROJECT_DIR$/Codeforces Round #810 (Div. 2)/Problems/A. Perfect Permutation" />
+            <option value="$PROJECT_DIR$/Codeforces Round #810 (Div. 2)/Problems/B. Party" />
+            <option value="$PROJECT_DIR$/Codeforces Round #810 (Div. 2)/Problems/C. Color the Picture" />
+            <option value="$PROJECT_DIR$/Codeforces Round #810 (Div. 2)/Problems/D. Rain" />
+            <option value="$PROJECT_DIR$/Codeforces Round #810 (Div. 2)/Problems/E. XOR Triangle" />
+            <option value="$PROJECT_DIR$/Educational Codeforces Round 131 (Rated for Div. 2)/Problems/A. Grass Field" />
+            <option value="$PROJECT_DIR$/Educational Codeforces Round 131 (Rated for Div. 2)/Problems/B. Permutation" />
+            <option value="$PROJECT_DIR$/Educational Codeforces Round 131 (Rated for Div. 2)/Problems/C. Schedule Management" />
+            <option value="$PROJECT_DIR$/Educational Codeforces Round 131 (Rated for Div. 2)/Problems/D. Permutation Restoration" />
+            <option value="$PROJECT_DIR$/Educational Codeforces Round 131 (Rated for Div. 2)/Problems/E. Text Editor" />
+            <option value="$PROJECT_DIR$/Educational Codeforces Round 131 (Rated for Div. 2)/Problems/F. Points" />
+            <option value="$PROJECT_DIR$/Problems (1)/A. Black Square" />
+            <option value="$PROJECT_DIR$/Problems (1)/B. Shower Line" />
+            <option value="$PROJECT_DIR$/Problems (1)/C. k-Tree" />
+            <option value="$PROJECT_DIR$/Problems (1)/D. Random Task" />
+            <option value="$PROJECT_DIR$/Problems (1)/E. Chemistry Experiment" />
+            <option value="$PROJECT_DIR$/Problems/A. Games" />
+            <option value="$PROJECT_DIR$/Problems/B. Buttons" />
+            <option value="$PROJECT_DIR$/Problems/C. Beautiful Sets of Points" />
+            <option value="$PROJECT_DIR$/Problems/D. Wall Bars" />
+            <option value="$PROJECT_DIR$/Problems/E. Playlist" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,15 +1,16 @@
 type: codeforces
-title: 'Codeforces Round #802 (Div. 2)'
+title: 'Codeforces Round #247 (Div. 2)'
 language: English
 summary: |-
-  A. Optimal Path
-  B. Palindromic Numbers
-  C. Helping the Nature
-  D. River Locks
-  E. Serega the Pirate
-  F. Puzzle
+  A. Black Square
+  B. Shower Line
+  C. k-Tree
+  D. Random Task
+  E. Chemistry Experiment
 programming_language: Java
-programming_language_version: 8
-end_date_time: 1655636700.000000000
-program_type_id: 36
+programming_language_version: 11
+content:
+- Problems (1)
+end_date_time: 1400693400.000000000
+program_type_id: 60
 mode: Study
