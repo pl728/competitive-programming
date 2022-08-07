@@ -1,0 +1,16 @@
+type: codeforces
+title: 'Codeforces Beta Round #84 (Div. 2 Only)'
+language: English
+summary: |-
+  A. Nearly Lucky Number
+  B. Lucky String
+  C. Lucky Sum of Digits
+  D. Lucky Probability
+  E. Lucky Tree
+programming_language: Java
+programming_language_version: 11
+content:
+- Problems
+end_date_time: 1314640800.000000000
+program_type_id: 60
+mode: Study

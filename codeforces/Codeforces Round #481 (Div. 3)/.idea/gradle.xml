@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -11,12 +10,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Problems/A. Traveling Salesman Problem" />
-            <option value="$PROJECT_DIR$/Problems/B. Optimal Reduction" />
-            <option value="$PROJECT_DIR$/Problems/C. Build Permutation" />
-            <option value="$PROJECT_DIR$/Problems/D. Tournament Countdown" />
-            <option value="$PROJECT_DIR$/Problems/E. Cross Swapping" />
-            <option value="$PROJECT_DIR$/Problems/F. Lost Array" />
+            <option value="$PROJECT_DIR$/Problems/A. Remove Duplicates" />
+            <option value="$PROJECT_DIR$/Problems/B. File Name" />
+            <option value="$PROJECT_DIR$/Problems/C. Letters" />
+            <option value="$PROJECT_DIR$/Problems/D. Almost Arithmetic Progression" />
+            <option value="$PROJECT_DIR$/Problems/E. Bus Video System" />
+            <option value="$PROJECT_DIR$/Problems/F. Mentors" />
+            <option value="$PROJECT_DIR$/Problems/G. Petya's Exams" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

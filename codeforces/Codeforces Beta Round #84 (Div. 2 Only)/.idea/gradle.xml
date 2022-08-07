@@ -11,12 +11,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Problems/A. Traveling Salesman Problem" />
-            <option value="$PROJECT_DIR$/Problems/B. Optimal Reduction" />
-            <option value="$PROJECT_DIR$/Problems/C. Build Permutation" />
-            <option value="$PROJECT_DIR$/Problems/D. Tournament Countdown" />
-            <option value="$PROJECT_DIR$/Problems/E. Cross Swapping" />
-            <option value="$PROJECT_DIR$/Problems/F. Lost Array" />
+            <option value="$PROJECT_DIR$/Problems/A. Nearly Lucky Number" />
+            <option value="$PROJECT_DIR$/Problems/B. Lucky String" />
+            <option value="$PROJECT_DIR$/Problems/C. Lucky Sum of Digits" />
+            <option value="$PROJECT_DIR$/Problems/D. Lucky Probability" />
+            <option value="$PROJECT_DIR$/Problems/E. Lucky Tree" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
