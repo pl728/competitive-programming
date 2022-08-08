@@ -18,17 +18,16 @@ public class Main {
         int n = sc.nextInt();
         int m = sc.nextInt();
         long[] a = sc.readLongArray(n);
-        long[] sum_a = new long[n + 1];
-        for(int i = 0; i < n; i++) {
-            sum_a[i + 1] = sum_a[i] + a[i];
-        }
         long[] b = sc.readLongArray(m);
-        int j = 0;
-        for(int i = 0; i < n; i++) {
-            while(j < m && b[j] <= sum_a[i + 1]) {
-                System.out.println((i + 1) + " " + (b[j] - sum_a[i]));
-                j++;
+
+        long sum = 0;
+        int index = 1;
+        for(int i = 0; i < m; i++) {
+            while(sum + a[index - 1] < b[i]) {
+                sum += a[index - 1];
+                index += 1;
             }
+            System.out.println(index + " " + (b[i] - sum));
         }
     }
 
@@ -161,7 +160,7 @@ public class Main {
             return b;
         }
 
-        public int sumArray(int[] a) {
+        public int sumIntArrayInt(int[] a) {
             int ans = 0;
             for (int i = 0; i < a.length; i++) {
                 ans += a[i];
@@ -170,7 +169,7 @@ public class Main {
             return ans;
         }
 
-        public long sumArrayLong(int[] a) {
+        public long sumLongArrayLong(int[] a) {
             long ans = 0;
             for (int i = 0; i < a.length; i++) {
                 ans += a[i];

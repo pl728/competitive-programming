@@ -1,0 +1,18 @@
+type: codeforces
+title: 'Codeforces Round #550 (Div. 3)'
+language: English
+summary: |-
+  A. Diverse Strings
+  B. Parity Alternated Deletions
+  C. Two Shuffled Sequences
+  D. Equalize Them All
+  E. Median String
+  F. Graph Without Long Directed Paths
+  G. Two Merged Sequences
+programming_language: Java
+programming_language_version: 11
+content:
+- Problems
+end_date_time: 1554048300.000000000
+program_type_id: 60
+mode: Study

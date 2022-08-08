@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/A. Again Twenty Five" />
+            <option value="$PROJECT_DIR$/Problems/B. Moore's Law" />
+            <option value="$PROJECT_DIR$/Problems/C. Lucky Numbers" />
+            <option value="$PROJECT_DIR$/Problems/D. Hexagons" />
+            <option value="$PROJECT_DIR$/Problems/E. A rectangle" />
+            <option value="$PROJECT_DIR$/Problems/F. Selection of Personnel" />
+            <option value="$PROJECT_DIR$/Problems/G. Challenge Pennants" />
+            <option value="$PROJECT_DIR$/Problems/H. Benches" />
+            <option value="$PROJECT_DIR$/Problems/I. Parking Lot" />
+            <option value="$PROJECT_DIR$/Problems/J. Divisibility" />
+            <option value="$PROJECT_DIR$/Problems/K. Indivisibility" />
+            <option value="$PROJECT_DIR$/Problems/L. Cracking the Code" />
+            <option value="$PROJECT_DIR$/Problems/M. Turn" />
+            <option value="$PROJECT_DIR$/Problems/N. Forecast" />
+            <option value="$PROJECT_DIR$/Problems/O. Arrow" />
+            <option value="$PROJECT_DIR$/Problems/P. Area of a Star" />
+            <option value="$PROJECT_DIR$/Problems/Q. Pyramids" />
+            <option value="$PROJECT_DIR$/Problems/R. Game" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
