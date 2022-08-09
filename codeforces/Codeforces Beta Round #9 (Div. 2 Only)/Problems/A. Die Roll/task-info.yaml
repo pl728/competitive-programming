@@ -2,11 +2,11 @@ type: codeforces
 files:
 - name: testData/1/input.txt
   visible: true
-  text: 1000 1000000
+  text: 4 2
   learner_created: false
 - name: testData/1/output.txt
   visible: true
-  text: 1011.0607223835503
+  text: 1/2
   learner_created: false
 - name: src/Main.java
   visible: true
@@ -69,5 +69,5 @@ files:
     \ {\n                ans += a[i];\n            }\n\n            return ans;\n\
     \        }\n    }\n}\n"
   learner_created: false
-feedback_link: https://codeforces.com/contest/630/problem/B?locale=en
+feedback_link: https://codeforces.com/contest/9/problem/A?locale=en
 status: Unchecked

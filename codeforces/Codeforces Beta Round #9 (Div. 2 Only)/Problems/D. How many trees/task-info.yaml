@@ -1,12 +1,21 @@
 type: codeforces
+custom_name: D. How many trees?
 files:
 - name: testData/1/input.txt
   visible: true
-  text: 1000 1000000
+  text: 3 2
   learner_created: false
 - name: testData/1/output.txt
   visible: true
-  text: 1011.0607223835503
+  text: 5
+  learner_created: false
+- name: testData/2/input.txt
+  visible: true
+  text: 3 3
+  learner_created: false
+- name: testData/2/output.txt
+  visible: true
+  text: 4
   learner_created: false
 - name: src/Main.java
   visible: true
@@ -69,5 +78,5 @@ files:
     \ {\n                ans += a[i];\n            }\n\n            return ans;\n\
     \        }\n    }\n}\n"
   learner_created: false
-feedback_link: https://codeforces.com/contest/630/problem/B?locale=en
+feedback_link: https://codeforces.com/contest/9/problem/D?locale=en
 status: Unchecked
