@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Codeforces_Round_#531__Div._3_-Problems-C._Doors_Breaking_and_Repairing" external.linked.project.path="$MODULE_DIR$/../../../../../Codeforces Round #531 (Div. 3)/Problems/C. Doors Breaking and Repairing" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="codeforces" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Codeforces Round #531 (Div. 3)/Problems/C. Doors Breaking and Repairing">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Codeforces Round #531 (Div. 3)/Problems/C. Doors Breaking and Repairing/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Codeforces Round #531 (Div. 3)/Problems/C. Doors Breaking and Repairing/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Codeforces Round #531 (Div. 3)/Problems/C. Doors Breaking and Repairing/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,16 +1,18 @@
 type: codeforces
-title: 'Codeforces Round #247 (Div. 2)'
+title: 'Codeforces Round #350 (Div. 2)'
 language: English
 summary: |-
-  A. Black Square
-  B. Shower Line
-  C. k-Tree
-  D. Random Task
-  E. Chemistry Experiment
+  A. Holidays
+  B. Game of Robots
+  C. Cinema
+  D1. Magic Powder - 1
+  D2. Magic Powder - 2
+  E. Correct Bracket Sequence Editor
+  F. Restore a Number
 programming_language: Java
 programming_language_version: 11
 content:
-- Problems (1)
-end_date_time: 1400693400.000000000
+- Problems (2)
+end_date_time: 1462473300.000000000
 program_type_id: 60
 mode: Study

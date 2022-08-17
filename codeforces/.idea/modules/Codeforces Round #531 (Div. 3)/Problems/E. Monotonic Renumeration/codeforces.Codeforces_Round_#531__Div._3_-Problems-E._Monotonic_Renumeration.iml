@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Codeforces_Round_#531__Div._3_-Problems-E._Monotonic_Renumeration" external.linked.project.path="$MODULE_DIR$/../../../../../Codeforces Round #531 (Div. 3)/Problems/E. Monotonic Renumeration" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="codeforces" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Codeforces Round #531 (Div. 3)/Problems/E. Monotonic Renumeration">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Codeforces Round #531 (Div. 3)/Problems/E. Monotonic Renumeration/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Codeforces Round #531 (Div. 3)/Problems/E. Monotonic Renumeration/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Codeforces Round #531 (Div. 3)/Problems/E. Monotonic Renumeration/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

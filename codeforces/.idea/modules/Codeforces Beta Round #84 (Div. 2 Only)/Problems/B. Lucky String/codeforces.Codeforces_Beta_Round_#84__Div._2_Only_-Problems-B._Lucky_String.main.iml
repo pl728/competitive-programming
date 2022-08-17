@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Codeforces_Beta_Round_#84__Div._2_Only_-Problems-B._Lucky_String:main" external.linked.project.path="$MODULE_DIR$/../../../../../Codeforces Beta Round #84 (Div. 2 Only)/Problems/B. Lucky String" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="codeforces" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../../Codeforces Beta Round #84 (Div. 2 Only)/Problems/B. Lucky String/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Codeforces Beta Round #84 (Div. 2 Only)/Problems/B. Lucky String/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../Codeforces Beta Round #84 (Div. 2 Only)/Problems/B. Lucky String/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="codeforces.util.main" />
+  </component>
+</module>

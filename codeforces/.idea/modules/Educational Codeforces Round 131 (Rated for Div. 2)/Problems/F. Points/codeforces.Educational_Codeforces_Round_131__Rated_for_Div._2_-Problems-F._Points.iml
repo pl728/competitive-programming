@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Educational_Codeforces_Round_131__Rated_for_Div._2_-Problems-F._Points" external.linked.project.path="$MODULE_DIR$/../../../../../Educational Codeforces Round 131 (Rated for Div. 2)/Problems/F. Points" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="codeforces" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Educational Codeforces Round 131 (Rated for Div. 2)/Problems/F. Points">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Educational Codeforces Round 131 (Rated for Div. 2)/Problems/F. Points/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Educational Codeforces Round 131 (Rated for Div. 2)/Problems/F. Points/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Educational Codeforces Round 131 (Rated for Div. 2)/Problems/F. Points/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Experimental_Educational_Round__VolBIT_Formulas_Blitz-Problems-J._Divisibility:main" external.linked.project.path="$MODULE_DIR$/../../../../../Experimental_Educational_Round__VolBIT_Formulas_Blitz/Problems/J. Divisibility" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="codeforces" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../../Experimental_Educational_Round__VolBIT_Formulas_Blitz/Problems/J. Divisibility/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Experimental_Educational_Round__VolBIT_Formulas_Blitz/Problems/J. Divisibility/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../Experimental_Educational_Round__VolBIT_Formulas_Blitz/Problems/J. Divisibility/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="codeforces.util.main" />
+  </component>
+</module>

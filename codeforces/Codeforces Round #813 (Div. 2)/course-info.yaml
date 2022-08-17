@@ -1,0 +1,18 @@
+type: codeforces
+title: 'Codeforces Round #813 (Div. 2)'
+language: English
+summary: |-
+  A. Wonderful Permutation
+  B. Woeful Permutation
+  C. Sort Zero
+  D. Empty Graph
+  E1. LCM Sum (easy version)
+  E2. LCM Sum (hard version)
+  F. Triameter
+programming_language: Java
+programming_language_version: 11
+content:
+- Problems
+end_date_time: 1660409400.000000000
+program_type_id: 60
+mode: Study

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Codeforces_Round_#277.5__Div._2_-Problems-F._Special_Matrices:main" external.linked.project.path="$MODULE_DIR$/../../../../../Codeforces Round #277.5 (Div. 2)/Problems/F. Special Matrices" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="codeforces" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../../Codeforces Round #277.5 (Div. 2)/Problems/F. Special Matrices/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Codeforces Round #277.5 (Div. 2)/Problems/F. Special Matrices/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../Codeforces Round #277.5 (Div. 2)/Problems/F. Special Matrices/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="codeforces.util.main" />
+  </component>
+</module>

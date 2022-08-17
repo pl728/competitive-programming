@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems__1_-A._Black_Square" external.linked.project.path="$MODULE_DIR$/../../../../Problems (1)/A. Black Square" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="codeforces" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems (1)/A. Black Square">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems (1)/A. Black Square/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems (1)/A. Black Square/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems (1)/A. Black Square/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

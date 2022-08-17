@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Codeforces_Round_#260__Div._1_-Problems-D._Serega_and_Fun" external.linked.project.path="$MODULE_DIR$/../../../../../Codeforces Round #260 (Div. 1)/Problems/D. Serega and Fun" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="codeforces" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Codeforces Round #260 (Div. 1)/Problems/D. Serega and Fun">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Codeforces Round #260 (Div. 1)/Problems/D. Serega and Fun/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Codeforces Round #260 (Div. 1)/Problems/D. Serega and Fun/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Codeforces Round #260 (Div. 1)/Problems/D. Serega and Fun/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

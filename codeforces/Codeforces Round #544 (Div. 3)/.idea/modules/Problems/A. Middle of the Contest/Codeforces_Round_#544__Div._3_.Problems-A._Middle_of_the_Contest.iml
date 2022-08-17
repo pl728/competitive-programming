@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-A._Middle_of_the_Contest" external.linked.project.path="$MODULE_DIR$/../../../../Problems/A. Middle of the Contest" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Codeforces_Round_#544__Div._3_" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/A. Middle of the Contest">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/A. Middle of the Contest/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/A. Middle of the Contest/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/A. Middle of the Contest/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

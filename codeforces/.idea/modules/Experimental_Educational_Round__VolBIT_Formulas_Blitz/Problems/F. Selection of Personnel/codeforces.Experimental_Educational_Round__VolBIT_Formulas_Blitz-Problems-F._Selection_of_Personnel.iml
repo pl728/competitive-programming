@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Experimental_Educational_Round__VolBIT_Formulas_Blitz-Problems-F._Selection_of_Personnel" external.linked.project.path="$MODULE_DIR$/../../../../../Experimental_Educational_Round__VolBIT_Formulas_Blitz/Problems/F. Selection of Personnel" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="codeforces" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Experimental_Educational_Round__VolBIT_Formulas_Blitz/Problems/F. Selection of Personnel">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Experimental_Educational_Round__VolBIT_Formulas_Blitz/Problems/F. Selection of Personnel/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Experimental_Educational_Round__VolBIT_Formulas_Blitz/Problems/F. Selection of Personnel/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Experimental_Educational_Round__VolBIT_Formulas_Blitz/Problems/F. Selection of Personnel/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

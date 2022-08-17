@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/A. Middle of the Contest" />
+            <option value="$PROJECT_DIR$/Problems/B. Preparation for International Women's Day" />
+            <option value="$PROJECT_DIR$/Problems/C. Balanced Team" />
+            <option value="$PROJECT_DIR$/Problems/D. Zero Quantity Maximization" />
+            <option value="$PROJECT_DIR$/Problems/E. K Balanced Teams" />
+            <option value="$PROJECT_DIR$/Problems/F1. Spanning Tree with Maximum Degree" />
+            <option value="$PROJECT_DIR$/Problems/F2. Spanning Tree with One Fixed Degree" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

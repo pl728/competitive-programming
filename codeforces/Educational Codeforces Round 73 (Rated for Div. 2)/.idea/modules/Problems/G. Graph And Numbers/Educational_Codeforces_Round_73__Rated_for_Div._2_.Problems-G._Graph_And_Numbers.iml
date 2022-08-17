@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-G._Graph_And_Numbers" external.linked.project.path="$MODULE_DIR$/../../../../Problems/G. Graph And Numbers" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Educational_Codeforces_Round_73__Rated_for_Div._2_" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/G. Graph And Numbers">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/G. Graph And Numbers/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/G. Graph And Numbers/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/G. Graph And Numbers/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Codeforces_Round_#260__Div._1_-Problems-B._A_Lot_of_Games:main" external.linked.project.path="$MODULE_DIR$/../../../../../Codeforces Round #260 (Div. 1)/Problems/B. A Lot of Games" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="codeforces" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../../Codeforces Round #260 (Div. 1)/Problems/B. A Lot of Games/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Codeforces Round #260 (Div. 1)/Problems/B. A Lot of Games/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../Codeforces Round #260 (Div. 1)/Problems/B. A Lot of Games/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="codeforces.util.main" />
+  </component>
+</module>

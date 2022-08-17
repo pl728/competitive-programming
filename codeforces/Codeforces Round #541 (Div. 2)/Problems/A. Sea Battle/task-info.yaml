@@ -1,0 +1,82 @@
+type: codeforces
+files:
+- name: testData/1/input.txt
+  visible: true
+  text: 2 1 2 1
+  learner_created: false
+- name: testData/1/output.txt
+  visible: true
+  text: 12
+  learner_created: false
+- name: testData/2/input.txt
+  visible: true
+  text: 2 2 1 2
+  learner_created: false
+- name: testData/2/output.txt
+  visible: true
+  text: 16
+  learner_created: false
+- name: src/Main.java
+  visible: true
+  text: "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\n\
+    import java.util.StringTokenizer;\n\npublic class Main {\n    static int globalVariable\
+    \ = 123456789;\n    static String author = \"pl728 on codeforces\";\n    \n  \
+    \  public static void main(String[] args) {\n        FastReader sc = new FastReader();\n\
+    \        MathUtils mathUtils = new MathUtils();\n        ArrayUtils arrayUtils\
+    \ = new ArrayUtils();\n\n        int t = sc.nextInt();\n        while(t-- != 0)\
+    \ {\n\n        }\n    }\n\n    static class FastReader {\n        /**\n      \
+    \   * Uses BufferedReader and StringTokenizer for quick java I/O\n         * get\
+    \ next int, long, double, string\n         * get int, long, double, string arrays,\
+    \ both primitive and wrapped object when array contains all elements\n       \
+    \  * on one line, and we know the array size (n)\n         * next: gets next space\
+    \ separated item\n         * nextLine: returns entire line as space\n        \
+    \ */\n        BufferedReader br;\n        StringTokenizer st;\n\n        public\
+    \ FastReader() {\n            this.br = new BufferedReader(new InputStreamReader(System.in));\n\
+    \        }\n\n        public String next() {\n            while (st == null ||\
+    \ !st.hasMoreElements()) {\n                try {\n                    st = new\
+    \ StringTokenizer(br.readLine());\n                } catch (IOException e) {\n\
+    \                    e.printStackTrace();\n                }\n            }\n\
+    \            return st.nextToken();\n        }\n\n        public String nextLine()\
+    \ {\n            String str = \"\";\n            try {\n                str =\
+    \ br.readLine();\n            } catch (IOException e) {\n                e.printStackTrace();\n\
+    \            }\n            return str;\n        }\n\n        public String[]\
+    \ readStringArrayLine(int n) {\n            String line = \"\";\n            try\
+    \ {\n                line = br.readLine();\n            } catch (IOException e)\
+    \ {\n                e.printStackTrace();\n            }\n            return line.split(\"\
+    \ \");\n        }\n\n        public String[] readStringArrayLines(int n) {\n \
+    \           String[] result = new String[n];\n            for (int i = 0; i <\
+    \ n; i++) {\n                result[i] = this.next();\n            }\n       \
+    \     return result;\n        }\n\n        // to parse something else:\n     \
+    \   // T x = T.parseT(fastReader.next());\n        public int nextInt() {\n  \
+    \          return Integer.parseInt(next());\n        }\n\n        public int[]\
+    \ readIntArray(int n) {\n            int[] result = new int[n];\n            for\
+    \ (int i = 0; i < n; i++) {\n                result[i] = this.nextInt();\n   \
+    \         }\n            return result;\n        }\n        \n        public long[]\
+    \ readLongArray(int n) {\n            long[] result = new long[n];\n         \
+    \   for (int i = 0; i < n; i++) {\n                result[i] = this.nextLong();\n\
+    \            }\n            return result;\n        }\n\n        public Integer[]\
+    \ readIntArrayObject(int n) {\n            Integer[] result = new Integer[n];\n\
+    \            for (int i = 0; i < n; i++) {\n                result[i] = this.nextInt();\n\
+    \            }\n            return result;\n        }\n\n        public long nextLong()\
+    \ {\n            return Long.parseLong(next());\n        }\n\n        public char[]\
+    \ readCharArray(int n) {\n            return this.nextLine().toCharArray();\n\
+    \        }\n\n    }\n\n    static class MathUtils {\n        public MathUtils()\
+    \ {\n        }\n\n        public long gcdLong(long a, long b)\n        {\n   \
+    \         if(a%b==0)\n                return b;\n            else\n          \
+    \      return gcdLong(b,a%b);\n        }\n\n        public long lcmLong(long a,\
+    \ long b) {\n            return a * b / gcdLong(a, b);\n        }\n    }\n\n \
+    \   static class ArrayUtils {\n        public ArrayUtils() {\n        }\n\n  \
+    \      public static int[] reverse(int[] a)\n        {\n            int n = a.length;\n\
+    \            int[] b = new int[n];\n            int j = n;\n            for (int\
+    \ i = 0; i < n; i++) {\n                b[j - 1] = a[i];\n                j =\
+    \ j - 1;\n            }\n\n            return b;\n        }\n\n        public\
+    \ int sumIntArrayInt(int[] a) {\n            int ans = 0;\n            for (int\
+    \ i = 0; i < a.length; i++) {\n                ans += a[i];\n            }\n\n\
+    \            return ans;\n        }\n\n        public long sumLongArrayLong(int[]\
+    \ a) {\n            long ans = 0;\n            for (int i = 0; i < a.length; i++)\
+    \ {\n                ans += a[i];\n            }\n\n            return ans;\n\
+    \        }\n    }\n    \n    public static int lowercaseToIndex(char c) {\n  \
+    \      return (int) c - 97;\n    }\n}\n"
+  learner_created: false
+feedback_link: https://codeforces.com/contest/1131/problem/A?locale=en
+status: Unchecked

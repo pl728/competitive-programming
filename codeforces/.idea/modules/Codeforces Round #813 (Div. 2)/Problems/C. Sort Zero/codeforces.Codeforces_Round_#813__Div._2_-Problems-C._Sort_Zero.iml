@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Codeforces_Round_#813__Div._2_-Problems-C._Sort_Zero" external.linked.project.path="$MODULE_DIR$/../../../../../Codeforces Round #813 (Div. 2)/Problems/C. Sort Zero" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="codeforces" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Codeforces Round #813 (Div. 2)/Problems/C. Sort Zero">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Codeforces Round #813 (Div. 2)/Problems/C. Sort Zero/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Codeforces Round #813 (Div. 2)/Problems/C. Sort Zero/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Codeforces Round #813 (Div. 2)/Problems/C. Sort Zero/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

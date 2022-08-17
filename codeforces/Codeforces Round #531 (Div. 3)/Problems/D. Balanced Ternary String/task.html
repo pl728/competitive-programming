@@ -1,0 +1,115 @@
+<div class="problem-statement">
+ <div class="header">
+  <div class="title">
+   D. Balanced Ternary String
+  </div>
+  <div class="time-limit">
+   <div class="property-title">
+    time limit per test
+   </div>2 seconds
+  </div>
+  <div class="memory-limit">
+   <div class="property-title">
+    memory limit per test
+   </div>256 megabytes
+  </div>
+  <div class="input-file">
+   <div class="property-title">
+    input
+   </div>standard input
+  </div>
+  <div class="output-file">
+   <div class="property-title">
+    output
+   </div>standard output
+  </div>
+ </div>
+ <div>
+  <p>You are given a string $s$ consisting of exactly $n$ characters, and each character is either '<span class="tex-font-style-tt">0</span>', '<span class="tex-font-style-tt">1</span>' or '<span class="tex-font-style-tt">2</span>'. Such strings are called <span class="tex-font-style-bf">ternary strings</span>.</p>
+  <p>Your task is to <span class="tex-font-style-bf">replace minimum number of characters</span> in this string with other characters to obtain a <span class="tex-font-style-it">balanced</span> ternary string (<span class="tex-font-style-it">balanced</span> ternary string is a ternary string such that the number of characters '<span class="tex-font-style-tt">0</span>' in this string is equal to the number of characters '<span class="tex-font-style-tt">1</span>', and the number of characters '<span class="tex-font-style-tt">1</span>' (and '<span class="tex-font-style-tt">0</span>' obviously) is equal to the number of characters '<span class="tex-font-style-tt">2</span>').</p>
+  <p>Among all possible <span class="tex-font-style-it">balanced</span> ternary strings you have to obtain the lexicographically (alphabetically) smallest.</p>
+  <p>Note that you can neither remove characters from the string nor add characters to the string. Also note that you can replace the given characters only with characters '<span class="tex-font-style-tt">0</span>', '<span class="tex-font-style-tt">1</span>' and '<span class="tex-font-style-tt">2</span>'.</p>
+  <p>It is <span class="tex-font-style-bf">guaranteed</span> that the answer exists.</p>
+ </div>
+ <div class="input-specification">
+  <div class="section-title">
+   Input
+  </div>
+  <p>The first line of the input contains one integer $n$ ($3 \le n \le 3 \cdot 10^5$, $n$ is <span class="tex-font-style-bf">divisible by $3$</span>) — the number of characters in $s$.</p>
+  <p>The second line contains the string $s$ consisting of exactly $n$ characters '<span class="tex-font-style-tt">0</span>', '<span class="tex-font-style-tt">1</span>' and '<span class="tex-font-style-tt">2</span>'.</p>
+ </div>
+ <div class="output-specification">
+  <div class="section-title">
+   Output
+  </div>
+  <p>Print one string — the lexicographically (alphabetically) smallest <span class="tex-font-style-it">balanced</span> ternary string which can be obtained from the given one with <span class="tex-font-style-bf">minimum</span> number of replacements.</p>
+  <p>Because $n$ is <span class="tex-font-style-bf">divisible by $3$</span> it is obvious that the answer exists. And it is obvious that there is only one possible answer.</p>
+ </div>
+ <div class="sample-tests">
+  <div class="section-title">
+   Examples
+  </div>
+  <div class="sample-test">
+   <div class="input">
+    <div class="title">
+     Input
+    </div>
+    <pre>3
+121
+</pre>
+   </div>
+   <div class="output">
+    <div class="title">
+     Output
+    </div>
+    <pre>021
+</pre>
+   </div>
+   <div class="input">
+    <div class="title">
+     Input
+    </div>
+    <pre>6
+000000
+</pre>
+   </div>
+   <div class="output">
+    <div class="title">
+     Output
+    </div>
+    <pre>001122
+</pre>
+   </div>
+   <div class="input">
+    <div class="title">
+     Input
+    </div>
+    <pre>6
+211200
+</pre>
+   </div>
+   <div class="output">
+    <div class="title">
+     Output
+    </div>
+    <pre>211200
+</pre>
+   </div>
+   <div class="input">
+    <div class="title">
+     Input
+    </div>
+    <pre>6
+120110
+</pre>
+   </div>
+   <div class="output">
+    <div class="title">
+     Output
+    </div>
+    <pre>120120
+</pre>
+   </div>
+  </div>
+ </div>
+</div>

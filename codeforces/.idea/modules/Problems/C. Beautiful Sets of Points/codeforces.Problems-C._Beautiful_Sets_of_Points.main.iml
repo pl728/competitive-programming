@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-C._Beautiful_Sets_of_Points:main" external.linked.project.path="$MODULE_DIR$/../../../../Problems/C. Beautiful Sets of Points" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="codeforces" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../Problems/C. Beautiful Sets of Points/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/C. Beautiful Sets of Points/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../Problems/C. Beautiful Sets of Points/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="codeforces.util.main" />
+  </component>
+</module>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/A. Tanya and Stairways" />
+            <option value="$PROJECT_DIR$/Problems/B. Delete from the Left" />
+            <option value="$PROJECT_DIR$/Problems/C. Summarize to the Power of Two" />
+            <option value="$PROJECT_DIR$/Problems/D. Polycarp and Div 3" />
+            <option value="$PROJECT_DIR$/Problems/E1. Median on Segments (Permutations Edition)" />
+            <option value="$PROJECT_DIR$/Problems/E2. Median on Segments (General Case Edition)" />
+            <option value="$PROJECT_DIR$/Problems/F. Berland and the Shortest Paths" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

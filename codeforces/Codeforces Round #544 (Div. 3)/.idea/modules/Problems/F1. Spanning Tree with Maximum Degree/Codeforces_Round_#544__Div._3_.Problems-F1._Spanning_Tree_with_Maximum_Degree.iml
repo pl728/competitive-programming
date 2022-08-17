@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-F1._Spanning_Tree_with_Maximum_Degree" external.linked.project.path="$MODULE_DIR$/../../../../Problems/F1. Spanning Tree with Maximum Degree" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Codeforces_Round_#544__Div._3_" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/F1. Spanning Tree with Maximum Degree">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/F1. Spanning Tree with Maximum Degree/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/F1. Spanning Tree with Maximum Degree/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/F1. Spanning Tree with Maximum Degree/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

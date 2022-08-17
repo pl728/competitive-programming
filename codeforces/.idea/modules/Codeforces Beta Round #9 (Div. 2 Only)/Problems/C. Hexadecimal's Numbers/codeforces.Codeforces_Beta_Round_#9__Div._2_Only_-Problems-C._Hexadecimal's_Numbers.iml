@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Codeforces_Beta_Round_#9__Div._2_Only_-Problems-C._Hexadecimal's_Numbers" external.linked.project.path="$MODULE_DIR$/../../../../../Codeforces Beta Round #9 (Div. 2 Only)/Problems/C. Hexadecimal's Numbers" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="codeforces" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Codeforces Beta Round #9 (Div. 2 Only)/Problems/C. Hexadecimal's Numbers">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Codeforces Beta Round #9 (Div. 2 Only)/Problems/C. Hexadecimal's Numbers/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Codeforces Beta Round #9 (Div. 2 Only)/Problems/C. Hexadecimal's Numbers/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Codeforces Beta Round #9 (Div. 2 Only)/Problems/C. Hexadecimal's Numbers/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

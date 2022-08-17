@@ -1,0 +1,99 @@
+<div class="problem-statement">
+ <div class="header">
+  <div class="title">
+   E. K Balanced Teams
+  </div>
+  <div class="time-limit">
+   <div class="property-title">
+    time limit per test
+   </div>3 seconds
+  </div>
+  <div class="memory-limit">
+   <div class="property-title">
+    memory limit per test
+   </div>256 megabytes
+  </div>
+  <div class="input-file">
+   <div class="property-title">
+    input
+   </div>standard input
+  </div>
+  <div class="output-file">
+   <div class="property-title">
+    output
+   </div>standard output
+  </div>
+ </div>
+ <div>
+  <p>You are a coach at your local university. There are $n$ students under your supervision, the programming skill of the $i$-th student is $a_i$.</p>
+  <p>You have to form $k$ teams for yet another new programming competition. As you know, the more students are involved in competition the more probable the victory of your university is! So you have to form no more than $k$ (and at least one) <span class="tex-font-style-bf">non-empty</span> teams so that the <span class="tex-font-style-bf">total</span> number of students in them is maximized. But you also know that <span class="tex-font-style-bf">each</span> team should be <span class="tex-font-style-it">balanced</span>. It means that the programming skill of each pair of students in <span class="tex-font-style-bf">each</span> team should differ by no more than $5$. Teams are independent from one another (it means that the difference between programming skills of two students from two different teams does not matter).</p>
+  <p>It is possible that some students not be included in any team at all.</p>
+  <p>Your task is to report the maximum possible <span class="tex-font-style-bf">total</span> number of students in no more than $k$ (and at least one) <span class="tex-font-style-bf">non-empty</span> <span class="tex-font-style-it">balanced</span> teams.</p>
+  <p><span class="tex-font-style-bf">If you are Python programmer, consider using PyPy instead of Python when you submit your code.</span></p>
+ </div>
+ <div class="input-specification">
+  <div class="section-title">
+   Input
+  </div>
+  <p>The first line of the input contains two integers $n$ and $k$ ($1 \le k \le n \le 5000$) — the number of students and the maximum number of teams, correspondingly.</p>
+  <p>The second line of the input contains $n$ integers $a_1, a_2, \dots, a_n$ ($1 \le a_i \le 10^9$), where $a_i$ is a programming skill of the $i$-th student.</p>
+ </div>
+ <div class="output-specification">
+  <div class="section-title">
+   Output
+  </div>
+  <p>Print one integer — the maximum possible <span class="tex-font-style-bf">total</span> number of students in no more than $k$ (and at least one) <span class="tex-font-style-bf">non-empty</span> <span class="tex-font-style-it">balanced</span> teams.</p>
+ </div>
+ <div class="sample-tests">
+  <div class="section-title">
+   Examples
+  </div>
+  <div class="sample-test">
+   <div class="input">
+    <div class="title">
+     Input
+    </div>
+    <pre>5 2
+1 2 15 15 15
+</pre>
+   </div>
+   <div class="output">
+    <div class="title">
+     Output
+    </div>
+    <pre>5
+</pre>
+   </div>
+   <div class="input">
+    <div class="title">
+     Input
+    </div>
+    <pre>6 1
+36 4 1 25 9 16
+</pre>
+   </div>
+   <div class="output">
+    <div class="title">
+     Output
+    </div>
+    <pre>2
+</pre>
+   </div>
+   <div class="input">
+    <div class="title">
+     Input
+    </div>
+    <pre>4 4
+1 10 100 1000
+</pre>
+   </div>
+   <div class="output">
+    <div class="title">
+     Output
+    </div>
+    <pre>4
+</pre>
+   </div>
+  </div>
+ </div>
+</div>

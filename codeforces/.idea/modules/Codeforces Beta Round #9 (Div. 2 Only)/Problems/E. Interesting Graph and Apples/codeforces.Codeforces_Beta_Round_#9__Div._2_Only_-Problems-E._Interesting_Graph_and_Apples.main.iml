@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Codeforces_Beta_Round_#9__Div._2_Only_-Problems-E._Interesting_Graph_and_Apples:main" external.linked.project.path="$MODULE_DIR$/../../../../../Codeforces Beta Round #9 (Div. 2 Only)/Problems/E. Interesting Graph and Apples" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="codeforces" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../../Codeforces Beta Round #9 (Div. 2 Only)/Problems/E. Interesting Graph and Apples/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Codeforces Beta Round #9 (Div. 2 Only)/Problems/E. Interesting Graph and Apples/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../Codeforces Beta Round #9 (Div. 2 Only)/Problems/E. Interesting Graph and Apples/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="codeforces.util.main" />
+  </component>
+</module>

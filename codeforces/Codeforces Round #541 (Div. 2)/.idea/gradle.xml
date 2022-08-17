@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/A. Sea Battle" />
+            <option value="$PROJECT_DIR$/Problems/B. Draw" />
+            <option value="$PROJECT_DIR$/Problems/C. Birthday" />
+            <option value="$PROJECT_DIR$/Problems/D. Gourmet choice" />
+            <option value="$PROJECT_DIR$/Problems/E. String Multiplication" />
+            <option value="$PROJECT_DIR$/Problems/F. Asya And Kittens" />
+            <option value="$PROJECT_DIR$/Problems/G. Most Dangerous Shark" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+type: codeforces
+title: 'Codeforces Round #496 (Div. 3)'
+language: English
+summary: |-
+  A. Tanya and Stairways
+  B. Delete from the Left
+  C. Summarize to the Power of Two
+  D. Polycarp and Div 3
+  E1. Median on Segments (Permutations Edition)
+  E2. Median on Segments (General Case Edition)
+  F. Berland and the Shortest Paths
+programming_language: Java
+programming_language_version: 11
+content:
+- Problems
+end_date_time: 1531157700.000000000
+program_type_id: 60
+mode: Study

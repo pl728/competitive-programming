@@ -1,0 +1,18 @@
+type: codeforces
+title: 'Codeforces Round #544 (Div. 3)'
+language: English
+summary: |-
+  A. Middle of the Contest
+  B. Preparation for International Women's Day
+  C. Balanced Team
+  D. Zero Quantity Maximization
+  E. K Balanced Teams
+  F1. Spanning Tree with Maximum Degree
+  F2. Spanning Tree with One Fixed Degree
+programming_language: Java
+programming_language_version: 11
+content:
+- Problems
+end_date_time: 1551978300.000000000
+program_type_id: 60
+mode: Study
