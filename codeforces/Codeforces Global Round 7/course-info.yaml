@@ -1,0 +1,20 @@
+type: codeforces
+title: Codeforces Global Round 7
+language: English
+summary: |-
+  A. Bad Ugly Numbers
+  B. Maximums
+  C. Permutation Partitions
+  D1. Prefix-Suffix Palindrome (Easy version)
+  D2. Prefix-Suffix Palindrome (Hard version)
+  E. Bombs
+  F1. Wise Men (Easy Version)
+  F2. Wise Men (Hard Version)
+  G. Spiderweb Trees
+programming_language: Java
+programming_language_version: 11
+content:
+- Problems
+end_date_time: 1584637500.000000000
+program_type_id: 60
+mode: Study

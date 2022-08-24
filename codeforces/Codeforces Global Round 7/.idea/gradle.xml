@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/A. Bad Ugly Numbers" />
+            <option value="$PROJECT_DIR$/Problems/B. Maximums" />
+            <option value="$PROJECT_DIR$/Problems/C. Permutation Partitions" />
+            <option value="$PROJECT_DIR$/Problems/D1. Prefix-Suffix Palindrome (Easy version)" />
+            <option value="$PROJECT_DIR$/Problems/D2. Prefix-Suffix Palindrome (Hard version)" />
+            <option value="$PROJECT_DIR$/Problems/E. Bombs" />
+            <option value="$PROJECT_DIR$/Problems/F1. Wise Men (Easy Version)" />
+            <option value="$PROJECT_DIR$/Problems/F2. Wise Men (Hard Version)" />
+            <option value="$PROJECT_DIR$/Problems/G. Spiderweb Trees" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

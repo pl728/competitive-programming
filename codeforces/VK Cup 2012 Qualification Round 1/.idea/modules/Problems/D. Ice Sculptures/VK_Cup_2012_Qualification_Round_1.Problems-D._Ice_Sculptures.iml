@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-D._Ice_Sculptures" external.linked.project.path="$MODULE_DIR$/../../../../Problems/D. Ice Sculptures" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="VK_Cup_2012_Qualification_Round_1" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/D. Ice Sculptures">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/D. Ice Sculptures/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/D. Ice Sculptures/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/D. Ice Sculptures/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

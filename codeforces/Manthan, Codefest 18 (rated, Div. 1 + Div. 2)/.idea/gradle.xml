@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/A. Packets" />
+            <option value="$PROJECT_DIR$/Problems/B. Reach Median" />
+            <option value="$PROJECT_DIR$/Problems/C. Equalize" />
+            <option value="$PROJECT_DIR$/Problems/D. Valid BFS" />
+            <option value="$PROJECT_DIR$/Problems/E. Trips" />
+            <option value="$PROJECT_DIR$/Problems/F. Maximum Reduction" />
+            <option value="$PROJECT_DIR$/Problems/G. A Game on Strings" />
+            <option value="$PROJECT_DIR$/Problems/H. Security" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

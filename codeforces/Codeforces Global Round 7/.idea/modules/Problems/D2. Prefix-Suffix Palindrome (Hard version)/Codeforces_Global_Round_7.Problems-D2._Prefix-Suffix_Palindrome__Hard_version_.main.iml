@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-D2._Prefix-Suffix_Palindrome__Hard_version_:main" external.linked.project.path="$MODULE_DIR$/../../../../Problems/D2. Prefix-Suffix Palindrome (Hard version)" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Codeforces_Global_Round_7" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../Problems/D2. Prefix-Suffix Palindrome (Hard version)/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/D2. Prefix-Suffix Palindrome (Hard version)/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../Problems/D2. Prefix-Suffix Palindrome (Hard version)/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Codeforces_Global_Round_7.util.main" />
+  </component>
+</module>
