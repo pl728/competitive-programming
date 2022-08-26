@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-F._Formalism_for_Formalism" external.linked.project.path="$MODULE_DIR$/../../../../Problems/F. Formalism for Formalism" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Codeforces_Round_#791__Div._2_1" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/F. Formalism for Formalism">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/F. Formalism for Formalism/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/F. Formalism for Formalism/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/F. Formalism for Formalism/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
