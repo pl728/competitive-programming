@@ -1,0 +1,17 @@
+type: codeforces
+title: Educational Codeforces Round 134 (Rated for Div. 2)
+language: English
+summary: |-
+  A. Image
+  B. Deadly Laser
+  C. Min-Max Array Transformation
+  D. Maximum AND
+  E. Prefix Function Queries
+  F. Matching Reduction
+programming_language: Java
+programming_language_version: 11
+content:
+- Problems
+end_date_time: 1661618100.000000000
+program_type_id: 60
+mode: Study

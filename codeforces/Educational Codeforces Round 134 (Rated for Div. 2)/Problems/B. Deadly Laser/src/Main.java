@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
+import java.util.*;
 
 public class Main {
     static int globalVariable = 123456789;
@@ -13,10 +14,22 @@ public class Main {
         ArrayUtils arrayUtils = new ArrayUtils();
 
         int t = sc.nextInt();
-        while(t-- != 0) {
+        while (t-- != 0) {
+            int n = sc.nextInt(), m = sc.nextInt(), sx = sc.nextInt(), sy = sc.nextInt(), d = sc.nextInt();
 
+            int steps = n + m - 2;
+            if ((sx - d <= 1 && sx + d >= n)
+                    || (sy - d <= 1 && sy + d >= m)
+                    || (sx - d <= 1 && sy - d <= 1)
+                    || (sx + d >= n && sy + d >= m)) {
+                System.out.println(-1);
+            } else {
+                System.out.println(steps);
+            }
         }
     }
+
+    // || (Math.abs(n - sx) + Math.abs(m - sy) <= d)
 
     static class FastReader {
         /**
@@ -117,12 +130,11 @@ public class Main {
         public MathUtils() {
         }
 
-        public long gcdLong(long a, long b)
-        {
-            if(a%b==0)
+        public long gcdLong(long a, long b) {
+            if (a % b == 0)
                 return b;
             else
-                return gcdLong(b,a%b);
+                return gcdLong(b, a % b);
         }
 
         public long lcmLong(long a, long b) {
@@ -134,8 +146,7 @@ public class Main {
         public ArrayUtils() {
         }
 
-        public static int[] reverse(int[] a)
-        {
+        public static int[] reverse(int[] a) {
             int n = a.length;
             int[] b = new int[n];
             int j = n;

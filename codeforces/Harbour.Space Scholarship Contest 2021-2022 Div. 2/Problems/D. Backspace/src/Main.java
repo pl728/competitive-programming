@@ -12,9 +12,26 @@ public class Main {
         MathUtils mathUtils = new MathUtils();
         ArrayUtils arrayUtils = new ArrayUtils();
 
-        int t = sc.nextInt();
-        while(t-- != 0) {
+        int tc = sc.ni();
+        while (tc-- != 0) {
+            String s = sc.ns();
+            String t = sc.ns();
 
+            int i = s.length() - 1;
+            int j = t.length() - 1;
+            while (i >= 0 && j >= 0) {
+                if (s.charAt(i) == t.charAt(j)) {
+                    i--;
+                    j--;
+                } else {
+                    i -= 2;
+                }
+            }
+            if (j < 0) {
+                System.out.println("YES");
+            } else {
+                System.out.println("NO");
+            }
         }
     }
 
@@ -45,7 +62,13 @@ public class Main {
             return st.nextToken();
         }
 
-        public String nextLine() {
+        // to parse something else:
+        // T x = T.parseT(fastReader.next());
+        public int ni() {
+            return Integer.parseInt(next());
+        }
+
+        public String ns() {
             String str = "";
             try {
                 str = br.readLine();
@@ -73,16 +96,10 @@ public class Main {
             return result;
         }
 
-        // to parse something else:
-        // T x = T.parseT(fastReader.next());
-        public int nextInt() {
-            return Integer.parseInt(next());
-        }
-
         public int[] readIntArray(int n) {
             int[] result = new int[n];
             for (int i = 0; i < n; i++) {
-                result[i] = this.nextInt();
+                result[i] = this.ni();
             }
             return result;
         }
@@ -90,7 +107,7 @@ public class Main {
         public long[] readLongArray(int n) {
             long[] result = new long[n];
             for (int i = 0; i < n; i++) {
-                result[i] = this.nextLong();
+                result[i] = this.nl();
             }
             return result;
         }
@@ -98,17 +115,17 @@ public class Main {
         public Integer[] readIntArrayObject(int n) {
             Integer[] result = new Integer[n];
             for (int i = 0; i < n; i++) {
-                result[i] = this.nextInt();
+                result[i] = this.ni();
             }
             return result;
         }
 
-        public long nextLong() {
+        public long nl() {
             return Long.parseLong(next());
         }
 
         public char[] readCharArray(int n) {
-            return this.nextLine().toCharArray();
+            return this.ns().toCharArray();
         }
 
     }
@@ -117,12 +134,11 @@ public class Main {
         public MathUtils() {
         }
 
-        public long gcdLong(long a, long b)
-        {
-            if(a%b==0)
+        public long gcdLong(long a, long b) {
+            if (a % b == 0)
                 return b;
             else
-                return gcdLong(b,a%b);
+                return gcdLong(b, a % b);
         }
 
         public long lcmLong(long a, long b) {
@@ -134,8 +150,7 @@ public class Main {
         public ArrayUtils() {
         }
 
-        public static int[] reverse(int[] a)
-        {
+        public static int[] reverse(int[] a) {
             int n = a.length;
             int[] b = new int[n];
             int j = n;

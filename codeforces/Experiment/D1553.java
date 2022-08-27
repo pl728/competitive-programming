@@ -3,10 +3,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+public class D1553 {
     static int globalVariable = 123456789;
     static String author = "pl728 on codeforces";
-
+    
     public static void main(String[] args) {
         FastReader sc = new FastReader();
         MathUtils mathUtils = new MathUtils();
@@ -14,7 +14,7 @@ public class Main {
 
         int t = sc.nextInt();
         while(t-- != 0) {
-
+            
         }
     }
 
@@ -62,6 +62,7 @@ public class Main {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+
             return line.split(" ");
         }
 
@@ -86,7 +87,7 @@ public class Main {
             }
             return result;
         }
-
+        
         public long[] readLongArray(int n) {
             long[] result = new long[n];
             for (int i = 0; i < n; i++) {
@@ -165,7 +166,7 @@ public class Main {
             return ans;
         }
     }
-
+    
     public static int lowercaseToIndex(char c) {
         return (int) c - 97;
     }

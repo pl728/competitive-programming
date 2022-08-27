@@ -2,11 +2,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
+import java.util.*;
 
 public class Main {
     static int globalVariable = 123456789;
     static String author = "pl728 on codeforces";
-
+    
     public static void main(String[] args) {
         FastReader sc = new FastReader();
         MathUtils mathUtils = new MathUtils();
@@ -14,6 +15,34 @@ public class Main {
 
         int t = sc.nextInt();
         while(t-- != 0) {
+            int n = sc.nextInt();
+            int[] a = sc.readIntArray(n);
+            int[] b = sc.readIntArray(n);
+            int[] dmin = new int[n];
+            int[] dmax = new int[n];
+
+            int j = n - 1;
+            for (int i = a.length - 1; i >= 0; i--) {
+                dmax[i] = b[j] - a[i];
+                if(j - 1 >= 0 && b[j - 1] < a[i]) {
+                    j--;
+                }
+            }
+
+            int k = 0;
+            for (int i = 0; i < n; i++) {
+                while(b[k] < a[i]) k++;
+                dmin[i] = b[k] - a[i];
+            }
+
+            for(int i = 0; i < n; i++) {
+                System.out.print(dmin[i] + " ");
+            }
+            System.out.println();
+            for(int i = 0; i < n; i++) {
+                System.out.print(dmax[i] + " ");
+            }
+            System.out.println();
 
         }
     }
@@ -86,7 +115,7 @@ public class Main {
             }
             return result;
         }
-
+        
         public long[] readLongArray(int n) {
             long[] result = new long[n];
             for (int i = 0; i < n; i++) {
@@ -165,7 +194,7 @@ public class Main {
             return ans;
         }
     }
-
+    
     public static int lowercaseToIndex(char c) {
         return (int) c - 97;
     }

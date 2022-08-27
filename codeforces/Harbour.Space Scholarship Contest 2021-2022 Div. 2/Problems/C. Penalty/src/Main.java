@@ -13,7 +13,8 @@ public class Main {
         ArrayUtils arrayUtils = new ArrayUtils();
 
         int t = sc.nextInt();
-        while(t-- != 0) {
+        while (t-- != 0) {
+            String s = sc.nextLine();
 
         }
     }
@@ -117,12 +118,11 @@ public class Main {
         public MathUtils() {
         }
 
-        public long gcdLong(long a, long b)
-        {
-            if(a%b==0)
+        public long gcdLong(long a, long b) {
+            if (a % b == 0)
                 return b;
             else
-                return gcdLong(b,a%b);
+                return gcdLong(b, a % b);
         }
 
         public long lcmLong(long a, long b) {
@@ -134,8 +134,7 @@ public class Main {
         public ArrayUtils() {
         }
 
-        public static int[] reverse(int[] a)
-        {
+        public static int[] reverse(int[] a) {
             int n = a.length;
             int[] b = new int[n];
             int j = n;

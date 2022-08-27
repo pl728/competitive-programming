@@ -1,6 +1,9 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.StringTokenizer;
 
 public class Main {
@@ -12,8 +15,40 @@ public class Main {
         MathUtils mathUtils = new MathUtils();
         ArrayUtils arrayUtils = new ArrayUtils();
 
-        int t = sc.nextInt();
-        while(t-- != 0) {
+        int tc = sc.ni();
+        while (tc-- != 0) {
+            int n = sc.ni();
+            long[] a = sc.readLongArray(n);
+            if (n == 1) {
+                System.out.println(1);
+                continue;
+            }
+            Arrays.sort(a);
+            int currentFrequency = 1;
+            int highestFrequency = 1;
+            for (int i = 1; i < n; i++) {
+                if (a[i] != a[i - 1]) {
+                    highestFrequency = Math.max(currentFrequency, highestFrequency);
+                    currentFrequency = 1;
+                } else {
+                    currentFrequency++;
+                }
+            }
+
+            highestFrequency = Math.max(currentFrequency, highestFrequency);
+
+            // if <= half, can always pair
+            // if greater than half, we can pair n - highestfreq,
+
+            if (highestFrequency <= n / 2) {
+                if(n % 2 == 1) {
+                    System.out.println(1);
+                } else {
+                    System.out.println(0);
+                }
+            } else {
+                System.out.println(highestFrequency - (n - highestFrequency));
+            }
 
         }
     }
@@ -45,7 +80,13 @@ public class Main {
             return st.nextToken();
         }
 
-        public String nextLine() {
+        // to parse something else:
+        // T x = T.parseT(fastReader.next());
+        public int ni() {
+            return Integer.parseInt(next());
+        }
+
+        public String ns() {
             String str = "";
             try {
                 str = br.readLine();
@@ -73,16 +114,10 @@ public class Main {
             return result;
         }
 
-        // to parse something else:
-        // T x = T.parseT(fastReader.next());
-        public int nextInt() {
-            return Integer.parseInt(next());
-        }
-
         public int[] readIntArray(int n) {
             int[] result = new int[n];
             for (int i = 0; i < n; i++) {
-                result[i] = this.nextInt();
+                result[i] = this.ni();
             }
             return result;
         }
@@ -90,7 +125,7 @@ public class Main {
         public long[] readLongArray(int n) {
             long[] result = new long[n];
             for (int i = 0; i < n; i++) {
-                result[i] = this.nextLong();
+                result[i] = this.nl();
             }
             return result;
         }
@@ -98,17 +133,17 @@ public class Main {
         public Integer[] readIntArrayObject(int n) {
             Integer[] result = new Integer[n];
             for (int i = 0; i < n; i++) {
-                result[i] = this.nextInt();
+                result[i] = this.ni();
             }
             return result;
         }
 
-        public long nextLong() {
+        public long nl() {
             return Long.parseLong(next());
         }
 
         public char[] readCharArray(int n) {
-            return this.nextLine().toCharArray();
+            return this.ns().toCharArray();
         }
 
     }
@@ -117,12 +152,11 @@ public class Main {
         public MathUtils() {
         }
 
-        public long gcdLong(long a, long b)
-        {
-            if(a%b==0)
+        public long gcdLong(long a, long b) {
+            if (a % b == 0)
                 return b;
             else
-                return gcdLong(b,a%b);
+                return gcdLong(b, a % b);
         }
 
         public long lcmLong(long a, long b) {
@@ -134,8 +168,7 @@ public class Main {
         public ArrayUtils() {
         }
 
-        public static int[] reverse(int[] a)
-        {
+        public static int[] reverse(int[] a) {
             int n = a.length;
             int[] b = new int[n];
             int j = n;
