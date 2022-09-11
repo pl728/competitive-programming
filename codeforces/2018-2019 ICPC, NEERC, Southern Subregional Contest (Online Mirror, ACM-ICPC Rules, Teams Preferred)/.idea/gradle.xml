@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/A. Find a Number" />
+            <option value="$PROJECT_DIR$/Problems/B. Berkomnadzor" />
+            <option value="$PROJECT_DIR$/Problems/C. Cloud Computing" />
+            <option value="$PROJECT_DIR$/Problems/D. Garbage Disposal" />
+            <option value="$PROJECT_DIR$/Problems/E. Getting Deals Done" />
+            <option value="$PROJECT_DIR$/Problems/F. Debate" />
+            <option value="$PROJECT_DIR$/Problems/G. Monsters and Potions" />
+            <option value="$PROJECT_DIR$/Problems/H. BerOS File Suggestion" />
+            <option value="$PROJECT_DIR$/Problems/I. Privatization of Roads in Berland" />
+            <option value="$PROJECT_DIR$/Problems/J. Streets and Avenues in Berhattan" />
+            <option value="$PROJECT_DIR$/Problems/K. Video Posts" />
+            <option value="$PROJECT_DIR$/Problems/L. Odd Federalization" />
+            <option value="$PROJECT_DIR$/Problems/M. Algoland and Berland" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

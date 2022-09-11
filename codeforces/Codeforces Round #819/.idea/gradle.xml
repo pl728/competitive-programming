@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/A. Mainak and Array" />
+            <option value="$PROJECT_DIR$/Problems/B. Mainak and Interesting Sequence" />
+            <option value="$PROJECT_DIR$/Problems/C. Jatayu's Balanced Bracket Sequence" />
+            <option value="$PROJECT_DIR$/Problems/D. Edge Split" />
+            <option value="$PROJECT_DIR$/Problems/E. Almost Perfect" />
+            <option value="$PROJECT_DIR$/Problems/F. Late For Work" />
+            <option value="$PROJECT_DIR$/Problems/G. A Certain Magical Party" />
+            <option value="$PROJECT_DIR$/Problems/H. Mainak and the Bleeding Polygon" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

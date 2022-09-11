@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-G._Common_Divisor_Graph:main" external.linked.project.path="$MODULE_DIR$/../../../../Problems/G. Common Divisor Graph" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Harbour.Space_Scholarship_Contest_2021-2022_Div._2" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../Problems/G. Common Divisor Graph/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/G. Common Divisor Graph/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../Problems/G. Common Divisor Graph/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Harbour.Space_Scholarship_Contest_2021-2022_Div._2.util.main" />
+  </component>
+</module>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-B._Fake_Plastic_Trees:main" external.linked.project.path="$MODULE_DIR$/../../../../Problems/B. Fake Plastic Trees" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Codeforces_Round_#800__Div._1_" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../Problems/B. Fake Plastic Trees/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/B. Fake Plastic Trees/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../Problems/B. Fake Plastic Trees/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Codeforces_Round_#800__Div._1_.util.main" />
+  </component>
+</module>

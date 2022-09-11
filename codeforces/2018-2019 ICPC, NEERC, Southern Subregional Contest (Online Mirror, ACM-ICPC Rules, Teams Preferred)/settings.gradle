@@ -1,0 +1,25 @@
+static String sanitizeName(String name) {
+    return name.replaceAll("[ /\\\\:<>\"?*|()]", "_").replaceAll("(^[.]+)|([.]+\$)", "")
+}
+
+rootProject.name = '2018-2019_ICPC,_NEERC,_Southern_Subregional_Contest__Online_Mirror,_ACM-ICPC_Rules,_Teams_Preferred_'
+
+rootProject.projectDir.eachDirRecurse {
+    if (!isTaskDir(it) || it.path.contains(".idea")) {
+        return
+    }
+    def taskRelativePath = rootDir.toPath().relativize(it.toPath())
+    def parts = []
+    for (name in taskRelativePath) {
+        parts.add(sanitizeName(name.toString()))
+    }
+    def moduleName =  parts.join("-")
+    include "$moduleName"
+    project(":$moduleName").projectDir = it
+}
+
+def isTaskDir(File dir) {
+    return new File(dir, "src").exists()
+}
+
+include 'util'

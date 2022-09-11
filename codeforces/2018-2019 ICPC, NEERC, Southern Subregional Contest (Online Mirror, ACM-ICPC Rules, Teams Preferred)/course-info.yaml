@@ -1,0 +1,25 @@
+type: codeforces
+title: 2018-2019 ICPC, NEERC, Southern Subregional Contest (Online Mirror, ACM-ICPC
+  Rules, Teams Preferred)
+language: English
+summary: |-
+  A. Find a Number
+  B. Berkomnadzor
+  C. Cloud Computing
+  D. Garbage Disposal
+  E. Getting Deals Done
+  F. Debate
+  G. Monsters and Potions
+  H. BerOS File Suggestion
+  I. Privatization of Roads in Berland
+  J. Streets and Avenues in Berhattan
+  K. Video Posts
+  L. Odd Federalization
+  M. Algoland and Berland
+programming_language: Java
+programming_language_version: 11
+content:
+- Problems
+end_date_time: 1540040700.000000000
+program_type_id: 60
+mode: Study
