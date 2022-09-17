@@ -1,0 +1,25 @@
+type: codeforces
+title: Helvetic Coding Contest 2019 online mirror (teams allowed, unrated)
+language: English
+summary: |-
+  A1. Heidi Learns Hashing (Easy)
+  A2. Heidi Learns Hashing (Medium)
+  A3. Heidi Learns Hashing (Hard)
+  B1. The Doctor Meets Vader (Easy)
+  B2. The Doctor Meets Vader (Medium)
+  B3. The Doctor Meets Vader (Hard)
+  C1. Heidi and the Turing Test (Easy)
+  C2. Heidi and the Turing Test (Medium)
+  C3. Heidi and the Turing Test (Hard)
+  D1. Parallel Universes (Easy)
+  D2. Parallel Universes (Hard)
+  E1. Daleks' Invasion (easy)
+  E2. Daleks' Invasion (medium)
+  E3. Daleks' Invasion (hard)
+programming_language: Java
+programming_language_version: 11
+content:
+- Problems
+end_date_time: 1562499300.000000000
+program_type_id: 60
+mode: Study
