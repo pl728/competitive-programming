@@ -1,7 +1,8 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.io.PrintWriter;
+import java.util.*;
 
 public class Main {
     static int globalVariable = 123456789;
@@ -9,12 +10,17 @@ public class Main {
 
     public static void main(String[] args) {
         FastReader sc = new FastReader();
+        PrintWriter pw = new PrintWriter(System.out);
         MathUtils mathUtils = new MathUtils();
         ArrayUtils arrayUtils = new ArrayUtils();
 
         int tc = sc.ni();
         while (tc-- != 0) {
-            
+            int n = sc.ni();
+            int[] x = sc.readIntArray(n);
+            int[] t = sc.readIntArray(n);
+
+
         }
     }
 

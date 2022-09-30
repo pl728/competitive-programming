@@ -1,7 +1,8 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.io.PrintWriter;
+import java.util.*;
 
 public class Main {
     static int globalVariable = 123456789;
@@ -9,12 +10,56 @@ public class Main {
 
     public static void main(String[] args) {
         FastReader sc = new FastReader();
+        PrintWriter pw = new PrintWriter(System.out);
         MathUtils mathUtils = new MathUtils();
         ArrayUtils arrayUtils = new ArrayUtils();
 
         int tc = sc.ni();
         while (tc-- != 0) {
-            
+            int n = sc.ni();
+            int x = sc.ni();
+            int y = sc.ni();
+            String a = sc.ns();
+            String b = sc.ns();
+
+
+
+            int i = 0;
+            int cost = 0;
+            int numAdjacent = 0, numAlone = 0;
+            while(i < n - 1) {
+                if(a.charAt(i) != b.charAt(i) && a.charAt(i + 1) != b.charAt(i + 1)) {
+                    numAdjacent += 2;
+                    i += 2;
+                } else if (a.charAt(i) != b.charAt(i)) {
+                    numAlone++;
+                    i += 1;
+                } else {
+                    i += 1;
+                }
+            }
+            if(i == n-1) {
+                if(a.charAt(n - 1) != b.charAt(n - 1)) {
+                    numAlone++;
+                }
+            }
+
+
+            if((numAdjacent + numAlone) % 2 == 1) {
+                System.out.println(-1);
+                continue;
+            }
+
+            numAlone = Math.max(0, numAlone - numAdjacent);
+
+            if(x < 2 * y) {
+                cost += numAdjacent / 2 * x + numAlone / 2 * y;
+            } else {
+                cost += numAdjacent * y;
+                cost += numAlone / 2 * y;
+            }
+
+            System.out.println(cost);
         }
     }
 

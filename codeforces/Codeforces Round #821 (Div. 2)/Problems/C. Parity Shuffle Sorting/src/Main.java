@@ -1,7 +1,8 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.io.PrintWriter;
+import java.util.*;
 
 public class Main {
     static int globalVariable = 123456789;
@@ -9,12 +10,46 @@ public class Main {
 
     public static void main(String[] args) {
         FastReader sc = new FastReader();
+        PrintWriter pw = new PrintWriter(System.out);
         MathUtils mathUtils = new MathUtils();
         ArrayUtils arrayUtils = new ArrayUtils();
 
         int tc = sc.ni();
         while (tc-- != 0) {
-            
+            int n = sc.ni();
+            int[] a = sc.readIntArray(n);
+
+
+            if(n == 1) {
+                System.out.println(0);
+                continue;
+            }
+            System.out.println(n - 1);
+            if((a[0] % 2 + a[n - 1] % 2) % 2 == 1) {
+                a[n - 1] = a[0];
+            } else {
+                a[0] = a[n - 1];
+
+            }
+            System.out.println(1 + " " + n);
+            if(a[0] % 2 == 0) {
+                // first and last are even
+                for(int i = 1; i < n - 1; i++) {
+                    if(a[i] % 2 == 0) {
+                        System.out.println((i + 1) + " " + n);
+                    } else {
+                        System.out.println(1 + " " + (i + 1));
+                    }
+                }
+            } else {
+                for(int i = 1; i < n - 1; i++) {
+                    if(a[i] % 2 == 1) {
+                        System.out.println((i + 1) + " " + n);
+                    } else {
+                        System.out.println(1 + " " + (i + 1));
+                    }
+                }
+            }
         }
     }
 

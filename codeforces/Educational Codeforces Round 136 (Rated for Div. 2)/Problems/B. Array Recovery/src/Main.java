@@ -1,7 +1,8 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.io.PrintWriter;
+import java.util.*;
 
 public class Main {
     static int globalVariable = 123456789;
@@ -9,13 +10,52 @@ public class Main {
 
     public static void main(String[] args) {
         FastReader sc = new FastReader();
+        PrintWriter pw = new PrintWriter(System.out);
         MathUtils mathUtils = new MathUtils();
         ArrayUtils arrayUtils = new ArrayUtils();
 
         int tc = sc.ni();
         while (tc-- != 0) {
-            
+            int n = sc.ni();
+            int[] d = sc.readIntArray(n);
+            int[] a = new int[n];
+            a[0] = d[0];
+
+            boolean flag = true;
+
+            for(int i = 1; i < n && flag; i++) {
+                // d[i] = |a[i] - a[i-1]|
+                // a[i] = d[i] + a[i-1] or
+                // a[i] = d[i] - a[i-1]
+                if(!f(a[i-1], d[i])) {
+                    flag = false;
+                }
+                a[i] = Math.abs(d[i] + a[i-1]);
+            }
+            if(!flag) {
+                System.out.println(-1);
+            } else {
+                for(int i = 0; i < n; i++) {
+                    System.out.print(a[i] + " ");
+                }
+                System.out.println();
+            }
         }
+    }
+
+    static boolean f(int a, int d) {
+        // f(2, 1) -> true (3)
+        // f(3, 8) -> false (5, 11)
+
+        if(d == 0) {
+            return true;
+        }
+
+        if(a - d >= 0) {
+            return false;
+        }
+
+        return true;
     }
 
     static class FastReader {

@@ -1,7 +1,8 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.io.PrintWriter;
+import java.util.*;
 
 public class Main {
     static int globalVariable = 123456789;
@@ -9,13 +10,24 @@ public class Main {
 
     public static void main(String[] args) {
         FastReader sc = new FastReader();
+        PrintWriter pw = new PrintWriter(System.out);
         MathUtils mathUtils = new MathUtils();
         ArrayUtils arrayUtils = new ArrayUtils();
 
         int tc = sc.ni();
-        while (tc-- != 0) {
-            
+        boolean[] isPrime = sieveBool(1000000);
+        int[] primesBelow = new int[1000005];
+        int numPrimes = 0;
+        for(int i = 2; i <= 1000000; i++) {
+            if(isPrime[i]) numPrimes++;
+            primesBelow[i] = numPrimes;
         }
+
+        while (tc-- != 0) {
+            int n = sc.ni();
+            pw.println(primesBelow[n] - primesBelow[(int) Math.sqrt(n)] + 1);
+        }
+        pw.flush();
     }
 
     static class FastReader {
@@ -162,6 +174,38 @@ public class Main {
 
             return ans;
         }
+    }
+
+    public static List<Integer> sieve(int n) {
+        // generate all prime numbers from
+        List<Integer> result = new ArrayList<>();
+        boolean[] isPrime = new boolean[n + 1];
+        Arrays.fill(isPrime, true);
+        isPrime[1] = false;
+        for(int i = 2; i <= n; i++) {
+            if(isPrime[i]) {
+                result.add(i);
+                for(int j = i; j <= n; j += i) {
+                    isPrime[j] = false;
+                }
+            }
+        }
+        return result;
+    }
+
+    public static boolean[] sieveBool(int n) {
+        // generate all prime numbers from
+        boolean[] isPrime = new boolean[n + 1];
+        Arrays.fill(isPrime, true);
+        isPrime[1] = false;
+        for(int i = 2; i <= n; i++) {
+            if(isPrime[i]) {
+                for(int j = i+i; j <= n; j += i) {
+                    isPrime[j] = false;
+                }
+            }
+        }
+        return isPrime;
     }
 
     public static int lowercaseToIndex(char c) {

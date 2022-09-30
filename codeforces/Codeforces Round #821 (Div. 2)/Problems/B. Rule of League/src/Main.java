@@ -1,7 +1,8 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.io.PrintWriter;
+import java.util.*;
 
 public class Main {
     static int globalVariable = 123456789;
@@ -9,12 +10,51 @@ public class Main {
 
     public static void main(String[] args) {
         FastReader sc = new FastReader();
+        PrintWriter pw = new PrintWriter(System.out);
         MathUtils mathUtils = new MathUtils();
         ArrayUtils arrayUtils = new ArrayUtils();
 
         int tc = sc.ni();
         while (tc-- != 0) {
-            
+            int n = sc.ni(); int x = sc.ni(); int y = sc.ni();
+            if((x != 0 && y != 0) || (x == 0 && y == 0)) {
+                System.out.println(-1);
+                continue;
+            }
+
+            // one of them is 0
+
+            int[] xy = new int[]{x, y};
+            Arrays.sort(xy);
+
+            if((n-1) % xy[1] != 0) {
+                System.out.println(-1);
+            } else {
+                int winner = 1;
+                int count = 0;
+                // 5
+                // 6 1 0
+                // expected: 1 3 4 5 6
+                while(count < n-1){
+                    int add = 0;
+                    for(int i = 0; i < xy[1] && count < n-1; i++) {
+                        System.out.print(winner + " ");
+                        count++;
+                    }
+
+                    if(winner == 1) {
+                        winner++;
+                    }
+                    winner += xy[1];
+
+                }
+
+                // print of each winner (n-1) / xy[1] times
+                //
+
+
+                System.out.println();
+            }
         }
     }
 
