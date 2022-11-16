@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/A. Ela Sorting Books" />
+            <option value="$PROJECT_DIR$/Problems/B. Ela's Fitness and the Luxury Number" />
+            <option value="$PROJECT_DIR$/Problems/C. Ela and Crickets" />
+            <option value="$PROJECT_DIR$/Problems/D. Ela and the Wiring Wizard" />
+            <option value="$PROJECT_DIR$/Problems/E. Ela Goes Hiking" />
+            <option value="$PROJECT_DIR$/Problems/F. Ela and Prime GCD" />
+            <option value="$PROJECT_DIR$/Problems/G. Ela Takes Dancing Class" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
