@@ -16,37 +16,23 @@ int visited[1005][1005] = {0};
 
 void solve()
 {
-    int n, x;
-    see(n, x);
-    v<int> a(n + 1);
-    if (n % x != 0)
+    int n;
+    see(n);
+    v<int> a(n);
+    if (n & 1)
     {
-        cout << -1 << endl;
-        return;
-    }
-
-    a[1] = x, a[n] = 1;
-    rep(i, 2, n) a[i] = i;
-    if (x != n)
-    {
-        a[x] = n;
+        int i = n - n / 2 + 2;
+        rep(j, 0, n) a[j] = i++;
+        a[0]--, a[n - 1]++, a[n - 2]++;
     }
     else
     {
-        rep(i, 1, n + 1) cout << a[i] << " ";
-        cout << endl;
-        return;
+        int i = n - n / 2;
+        rep(j, 0, n / 2) a[j] = i++;
+        i++;
+        rep(j, n / 2, n) a[j] = i++;
     }
-    int j = x;
-    rep(i, x + 1, n)
-    {
-        if (a[i] % j == 0 && a[j] % i == 0)
-        {
-            swap(a[i], a[j]);
-            j = i;
-        }
-    }
-    rep(i, 1, n + 1) cout << a[i] << " ";
+    rep(i, 0, n) cout << a[i] << " ";
     cout << endl;
 }
 
