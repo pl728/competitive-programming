@@ -3,6 +3,7 @@
 #define rev(i, a, b) for (int i = a; i >= b; i--)
 #define pb push_back
 #define all(a) (a).begin(), (a).end()
+#define sz(x) ((int)(x).size())
 #define v vector
 using ll = long long;
 using namespace std;
@@ -12,21 +13,26 @@ void see(T &...args) { ((cin >> args), ...); }
 
 const int M = 1e9 + 7;
 int grid[1005][1005] = {0};
-int visited[1005][1005] = {0};
+// cbcbcac
 
 void solve()
 {
-    int n;
-    see(n);
-    for (int i = 0; i < 5000; i++)
+    int a, b, c, m;
+    see(a, b, c, m);
+    ll most = max(0, a - 1) + max(0, b - 1) + max(0, c - 1);
+    v<int> x;
+    x.pb(a);
+    x.pb(b);
+    x.pb(c);
+    sort(all(x));
+    ll least = max(0, x[2] - x[0] - x[1] - 1);
+    if (m >= least && m <= most)
     {
-        for (int j = 0; j < 5000; j++)
-        {
-            for (int k = 0; k < 5000; k++)
-            {
-                cout << "sigterm" << endl;
-            }
-        }
+        cout << "YES" << endl;
+    }
+    else
+    {
+        cout << "NO" << endl;
     }
 }
 
