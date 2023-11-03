@@ -21,10 +21,8 @@ void see(T &...args) { ((cin >> args), ...); }
 const int MXN = 1e9 + 7;
 int grid[1005][1005] = {0};
 
-void pv(v<int> x)
-{
-  rep(i, 0, sz(x))
-  {
+void pvec(v<int> x) {
+  rep(i,0,sz(x)) {
     cout << x[i] << " ";
   }
   cout << endl;
@@ -32,26 +30,27 @@ void pv(v<int> x)
 
 void solve()
 {
-  int a, b;
-  see(a, b);
-  ll
+    int n; see(n);
+    v<int> a(n);
+    rep(i, 0, n) see(a[i]);
+    pvec(a);
 }
 
 void tie()
 {
-  ios_base::sync_with_stdio(0);
-  cin.tie(0);
-  cout.tie(0);
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
 }
 
 void solve();
 int main()
 {
-  tie();
-  int tc;
-  cin >> tc;
-  while (tc--)
-  {
-    solve();
-  }
+    tie();
+    int tc;
+    cin >> tc;
+    while (tc--)
+    {
+        solve();
+    }
 }
